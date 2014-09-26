@@ -1,4 +1,6 @@
 ﻿using System;
+using CYC.Logging.Interface;
+using CYC.Logging.NLog;
 using Rs.Commands;
 using Rs.Verbs;
 
@@ -6,6 +8,8 @@ namespace Rs
 {
     class Program
     {
+        private static ILogger logger = new Logger("rs");
+
         static void Main(string[] args)
         {
             var options = new Options();
@@ -17,12 +21,10 @@ namespace Rs
 
         static void OnVerb(string verb, object subOptions)
         {
-
             if (verb == VerbNames.UploadFile)
             {
                 var uploadFileSubOptions = (UploadFileSubOptions)subOptions;
-                Console.WriteLine("Upload file");
-                new UploadFileVerb(uploadFileSubOptions).Process();
+                new UploadFileVerb(uploadFileSubOptions, logger).Process();
             }
         }
     }
