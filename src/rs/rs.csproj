@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Options.cs" />
+    <Compile Include="Commands\UploadFolderSubOptions.cs" />
     <Compile Include="Commands\UploadFileSubOptions.cs" />
     <Compile Include="Commands\VerbNames.cs" />
     <Compile Include="Constants\ItemType.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Services\FileService.cs" />
     <Compile Include="Services\IFileService.cs" />
     <Compile Include="Verbs\UploadFileVerb.cs" />
+    <Compile Include="Verbs\UploadFolderVerb.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

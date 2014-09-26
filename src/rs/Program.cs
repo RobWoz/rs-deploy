@@ -19,14 +19,19 @@ namespace Rs
             }
         }
 
-        static void OnVerb(string verb, object subOptions)
+        static void OnVerb(string verb, object options)
         {
             try
             {
-                if (verb == VerbNames.UploadFile)
+                switch (verb)
                 {
-                    var uploadFileSubOptions = (UploadFileSubOptions)subOptions;
-                    new UploadFileVerb(uploadFileSubOptions, logger).Process();
+                    case VerbNames.UploadFile:
+                        UploadFile(options);
+                        break;
+
+                    case VerbNames.UploadFolder:
+                        UploadFolder(options);
+                        break;
                 }
             }
             catch (Exception ex)
@@ -34,6 +39,18 @@ namespace Rs
                 logger.Error("Unexpected error", ex);
             }
             
+        }
+
+        private static void UploadFile(object options)
+        {
+            var uploadFileSubOptions = (UploadFileSubOptions)options;
+            new UploadFileVerb(uploadFileSubOptions, logger).Process(); 
+        }
+
+        private static void UploadFolder(object options)
+        {
+            var uploadFileSubOptions = (UploadFolderSubOptions)options;
+            new UploadFolderVerb(uploadFileSubOptions, logger).Process();
         }
     }
 }
