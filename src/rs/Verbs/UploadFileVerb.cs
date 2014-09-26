@@ -2,6 +2,7 @@
 using System.IO;
 using CYC.Logging.Interface;
 using Rs.Commands;
+using Rs.Constants;
 using Rs.ReportService2010;
 using Rs.Services;
 
@@ -24,10 +25,9 @@ namespace Rs.Verbs
 
         public void Process()
         {
-            var itemType = fileService.GetReportingServicesItemType(options.File);
-            if (itemType == null)
+            if (Path.GetExtension(options.File) != ".rdl")
             {
-                throw new ArgumentException("Only .rpt or .rds files can be uploaded");
+                throw new ArgumentException("Only .rdl files can be uploaded");
             }
 
             logger.Info("Uploading file '{0}' to folder '{1}' on report server '{2}'", options.File, options.DestinationFolder, options.Server);
@@ -40,7 +40,7 @@ namespace Rs.Verbs
                 Definition = fileService.GetBytes(options.File),
                 Name = Path.GetFileNameWithoutExtension(options.File),
                 Parent = options.DestinationFolder,
-                ItemType = itemType,
+                ItemType = ItemType.Report,
                 Overwrite = true
             });
         }
