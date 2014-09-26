@@ -3,7 +3,7 @@ using System.ServiceModel.Channels;
 
 namespace Rs.ReportService2010
 {
-    public class ReportingServiceChannelFactory
+    public class ReportingServiceChannelFactory : IReportingServiceChannelFactory
     {
         public IReportingService2010 Create(string url)
         {
