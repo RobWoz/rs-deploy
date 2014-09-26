@@ -45,6 +45,7 @@
       <HintPath>..\..\packages\NLog.3.0.0.0\lib\net45\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Options.cs" />
+    <Compile Include="Commands\CreateDatasources.cs" />
     <Compile Include="Commands\UploadFolderSubOptions.cs" />
     <Compile Include="Commands\UploadFileSubOptions.cs" />
     <Compile Include="Commands\VerbNames.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="Services\FileService.cs" />
     <Compile Include="Services\IFileService.cs" />
     <Compile Include="Verbs\UploadFileVerb.cs" />
+    <Compile Include="Verbs\CreateDatasourcesVerb.cs" />
     <Compile Include="Verbs\UploadFolderVerb.cs" />
   </ItemGroup>
   <ItemGroup>

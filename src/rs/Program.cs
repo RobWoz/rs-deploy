@@ -32,6 +32,10 @@ namespace Rs
                     case VerbNames.UploadFolder:
                         UploadFolder(options);
                         break;
+
+                    case VerbNames.CreateDatasources:
+                        CreateDatasources(options);
+                        break;
                 }
             }
             catch (Exception ex)
@@ -51,6 +55,12 @@ namespace Rs
         {
             var uploadFileSubOptions = (UploadFolderSubOptions)options;
             new UploadFolderVerb(uploadFileSubOptions, logger).Process();
+        }
+
+        private static void CreateDatasources(object options)
+        {
+            var createDatasourcesSubOptions = (CreateDatasourcesSubOptions)options;
+            new CreateDatasourcesVerb(createDatasourcesSubOptions, logger).Process();
         }
     }
 }
