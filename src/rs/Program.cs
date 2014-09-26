@@ -21,11 +21,19 @@ namespace Rs
 
         static void OnVerb(string verb, object subOptions)
         {
-            if (verb == VerbNames.UploadFile)
+            try
             {
-                var uploadFileSubOptions = (UploadFileSubOptions)subOptions;
-                new UploadFileVerb(uploadFileSubOptions, logger).Process();
+                if (verb == VerbNames.UploadFile)
+                {
+                    var uploadFileSubOptions = (UploadFileSubOptions)subOptions;
+                    new UploadFileVerb(uploadFileSubOptions, logger).Process();
+                }
             }
+            catch (Exception ex)
+            {
+                logger.Error("Unexpected error", ex);
+            }
+            
         }
     }
 }
