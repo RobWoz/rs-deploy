@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Linq;
 using Rs.Constants;
 
 namespace Rs.Services
@@ -31,6 +33,26 @@ namespace Rs.Services
             }
 
             return itemType;
+        }
+
+        public string GetFileName(string file)
+        {
+            var fileName = Path.GetFileNameWithoutExtension(file);
+            return fileName.Split('.').Last();
+        }
+
+        public string ExpandFileNamePath(string file)
+        {
+            var fileName = Path.GetFileNameWithoutExtension(file);
+            var parts = fileName.Split('.');
+            string path = null;
+
+            if (parts.Length > 1)
+            {
+                path = String.Join("/", parts.Reverse().Skip(1).Reverse());
+            }
+
+            return path;
         }
     }
 }

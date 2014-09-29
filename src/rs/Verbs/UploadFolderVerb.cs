@@ -26,7 +26,7 @@ namespace Rs.Verbs
 
         public void Process()
         {
-            var files = Directory.EnumerateFiles(options.Folder, "*.rdl");
+            var files = Directory.EnumerateFiles(options.Folder, "*.rdl").ToList();
             
             if (files.Any())
             {
@@ -35,13 +35,17 @@ namespace Rs.Verbs
 
                 foreach (var file in files)
                 {
-                    logger.Info("Uploading file '{0}' to folder '{1}' on report server '{2}'", file, options.DestinationFolder, options.Server);
+                    var path = fileService.ExpandFileNamePath(file);
+                    var parent = path == null ? options.DestinationFolder : String.Format("{0}/{1}", options.DestinationFolder, path);
+                    var name = fileService.GetFileName(file);
 
+                    logger.Info("Uploading file '{0}' to '{1}/{2}' on report server '{3}'", file, parent, name, options.Server);
+                    
                     channel.CreateCatalogItem(new CreateCatalogItemRequest
                     {
                         Definition = fileService.GetBytes(file),
-                        Name = Path.GetFileNameWithoutExtension(file),
-                        Parent = options.DestinationFolder,
+                        Name = name,
+                        Parent = parent,
                         ItemType = ItemType.Report,
                         Overwrite = true
                     });

@@ -29,17 +29,21 @@ namespace Rs.Verbs
             {
                 throw new ArgumentException("Only .rdl files can be uploaded");
             }
+            
+            var path = fileService.ExpandFileNamePath(options.File);
+            var parent = path == null ? options.DestinationFolder : String.Format("{0}/{1}", options.DestinationFolder, path);
+            var name = fileService.GetFileName(options.File);
 
-            logger.Info("Uploading file '{0}' to folder '{1}' on report server '{2}'", options.File, options.DestinationFolder, options.Server);
+            logger.Info("Uploading file '{0}' to '{1}/{2}' on report server '{3}'", options.File, parent, name, options.Server);
 
             var url = String.Format("http://{0}/reportserver/ReportService2010.asmx", options.Server);
             var channel = channelFactory.Create(url);
-            
+
             channel.CreateCatalogItem(new CreateCatalogItemRequest
             {
                 Definition = fileService.GetBytes(options.File),
-                Name = Path.GetFileNameWithoutExtension(options.File),
-                Parent = options.DestinationFolder,
+                Name = name,
+                Parent = parent,
                 ItemType = ItemType.Report,
                 Overwrite = true
             });
