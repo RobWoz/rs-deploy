@@ -71,6 +71,7 @@
     <Compile Include="Verbs\UploadFileVerb.cs" />
     <Compile Include="Verbs\CreateDatasourcesVerb.cs" />
     <Compile Include="Verbs\UploadFolderVerb.cs" />
+    <Compile Include="Verbs\UploadVerbBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

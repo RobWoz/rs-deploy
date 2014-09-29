@@ -2,25 +2,16 @@
 using System.IO;
 using CYC.Logging.Interface;
 using Rs.Commands;
-using Rs.Constants;
-using Rs.ReportService2010;
-using Rs.Services;
 
 namespace Rs.Verbs
 {
-    public class UploadFileVerb
+    public class UploadFileVerb : UploadVerbBase
     {
         private readonly UploadFileSubOptions options;
-        private readonly IFileService fileService;
-        private readonly IReportingServiceChannelFactory channelFactory;
-        private readonly ILogger logger;
-
-        public UploadFileVerb(UploadFileSubOptions options, ILogger logger)
+        
+        public UploadFileVerb(UploadFileSubOptions options, ILogger logger) : base(logger, options.Server)
         {
             this.options = options;
-            this.fileService = new FileService();
-            this.channelFactory = new ReportingServiceChannelFactory();
-            this.logger = logger;
         }
 
         public void Process()
@@ -29,24 +20,8 @@ namespace Rs.Verbs
             {
                 throw new ArgumentException("Only .rdl files can be uploaded");
             }
-            
-            var path = fileService.ExpandFileNamePath(options.File);
-            var parent = path == null ? options.DestinationFolder : String.Format("{0}/{1}", options.DestinationFolder, path);
-            var name = fileService.GetFileName(options.File);
 
-            logger.Info("Uploading file '{0}' to '{1}/{2}' on report server '{3}'", options.File, parent, name, options.Server);
-
-            var url = String.Format("http://{0}/reportserver/ReportService2010.asmx", options.Server);
-            var channel = channelFactory.Create(url);
-
-            channel.CreateCatalogItem(new CreateCatalogItemRequest
-            {
-                Definition = fileService.GetBytes(options.File),
-                Name = name,
-                Parent = parent,
-                ItemType = ItemType.Report,
-                Overwrite = true
-            });
+            UploadFile(options.File, options.DestinationFolder, options.Server);
         }
     }
 }
