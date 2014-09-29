@@ -1,16 +1,17 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using CommandLine;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("rs")]
-[assembly: AssemblyDescription("")]
+
+[assembly: AssemblyTitle("rs.exe")]
+[assembly: AssemblyDescription("Reporting Services report upload tool.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rs")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyProduct("rs.exe")]
+[assembly: AssemblyCopyright("Copyright © CYC 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,3 +35,9 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersionAttribute("1.0.0")]
+
+[assembly: AssemblyUsage(
+    @"Usage: rs upload-file -f 'C:\folder.sub-folder.report.rdl' -d '/test' -s server",
+    @"       rs upload-folder -f 'C:\folder' -d '/test' -s server",
+    @"       rs create-datasources -f 'con-str.config' -d '/test' -s server")]
