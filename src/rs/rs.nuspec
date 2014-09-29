@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RS</id>
+    <version>1.0.0</version>
+    <title>RS.exe</title>
+    <authors>CYC</authors>
+    <owners>CYC</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Reporting Services report upload tool.</description>
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.*" target="tools" />
+  </files>
+</package>
