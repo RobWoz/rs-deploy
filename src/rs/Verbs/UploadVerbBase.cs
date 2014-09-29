@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using CYC.Logging.Interface;
 using Rs.Constants;
 using Rs.ReportService2010;
@@ -39,6 +40,49 @@ namespace Rs.Verbs
                 ItemType = ItemType.Report,
                 Overwrite = true
             });
+
+            var itemPath = String.Format("{0}/{1}", parent, name);
+
+            UpdateDatasources(itemPath, destinationFolder);
+        }
+
+        private void UpdateDatasources(string itemPath, string parent)
+        {
+            logger.Info("Updating datasources in report {0}", itemPath);
+
+            var response = GetItemDataSources(itemPath);
+
+            var dataSources = response.DataSources.Select(datasource => new DataSource
+            {
+                Name = datasource.Name,
+                Item = new DataSourceReference
+                {
+                    Reference = String.Format("{0}/{1}", parent, datasource.Name)
+                }
+            }).ToArray();
+
+            SetItemDataSources(itemPath, dataSources);
+        }
+
+        private GetItemDataSourcesResponse GetItemDataSources(string itemPath)
+        {
+            var request = new GetItemDataSourcesRequest
+            {
+                ItemPath = itemPath
+            };
+
+            return channel.GetItemDataSources(request);
+        }
+
+        private void SetItemDataSources(string itemPath, DataSource[] dataSources)
+        {
+            var request = new SetItemDataSourcesRequest
+            {
+                ItemPath = itemPath,
+                DataSources = dataSources
+            };
+
+            channel.SetItemDataSources(request);
         }
     }
 }
