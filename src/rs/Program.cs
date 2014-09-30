@@ -41,6 +41,7 @@ namespace Rs
             catch (Exception ex)
             {
                 logger.Error("Unexpected error", ex);
+                Environment.Exit(CommandLine.Parser.DefaultExitCodeFail);
             }
             
         }
