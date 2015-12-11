@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Rs.ReportService2010
+namespace CYC.RsDeploy.Console.ReportService2010
 {
     
     
@@ -25,7 +25,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateCatalogItemResponse CreateCatalogItem(Rs.ReportService2010.CreateCatalogItemRequest request);
+        CreateCatalogItemResponse CreateCatalogItem(CreateCatalogItemRequest request);
         
         // CODEGEN: Generating message contract since message SetItemDefinitionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
@@ -35,7 +35,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemDefinitionResponse SetItemDefinition(Rs.ReportService2010.SetItemDefinitionRequest request);
+        SetItemDefinitionResponse SetItemDefinition(SetItemDefinitionRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDefinitionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -45,7 +45,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemDefinitionResponse GetItemDefinition(Rs.ReportService2010.GetItemDefinitionRequest request);
+        GetItemDefinitionResponse GetItemDefinition(GetItemDefinitionRequest request);
         
         // CODEGEN: Generating message contract since message GetItemTypeRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemT" +
@@ -55,7 +55,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemTypeResponse GetItemType(Rs.ReportService2010.GetItemTypeRequest request);
+        GetItemTypeResponse GetItemType(GetItemTypeRequest request);
         
         // CODEGEN: Generating message contract since message DeleteItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
@@ -65,7 +65,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteItemResponse DeleteItem(Rs.ReportService2010.DeleteItemRequest request);
+        DeleteItemResponse DeleteItem(DeleteItemRequest request);
         
         // CODEGEN: Generating message contract since message MoveItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/MoveItem" +
@@ -75,7 +75,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.MoveItemResponse MoveItem(Rs.ReportService2010.MoveItemRequest request);
+        MoveItemResponse MoveItem(MoveItemRequest request);
         
         // CODEGEN: Generating message contract since message InheritParentSecurityRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritP" +
@@ -85,7 +85,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.InheritParentSecurityResponse InheritParentSecurity(Rs.ReportService2010.InheritParentSecurityRequest request);
+        InheritParentSecurityResponse InheritParentSecurity(InheritParentSecurityRequest request);
         
         // CODEGEN: Generating message contract since message ListItemHistoryRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
@@ -95,7 +95,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListItemHistoryResponse ListItemHistory(Rs.ReportService2010.ListItemHistoryRequest request);
+        ListItemHistoryResponse ListItemHistory(ListItemHistoryRequest request);
         
         // CODEGEN: Generating message contract since message ListChildrenRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListChil" +
@@ -105,7 +105,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListChildrenResponse ListChildren(Rs.ReportService2010.ListChildrenRequest request);
+        ListChildrenResponse ListChildren(ListChildrenRequest request);
         
         // CODEGEN: Generating message contract since message ListDependentItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListDepe" +
@@ -115,7 +115,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListDependentItemsResponse ListDependentItems(Rs.ReportService2010.ListDependentItemsRequest request);
+        ListDependentItemsResponse ListDependentItems(ListDependentItemsRequest request);
         
         // CODEGEN: Generating message contract since message FindItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FindItem" +
@@ -125,7 +125,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.FindItemsResponse FindItems(Rs.ReportService2010.FindItemsRequest request);
+        FindItemsResponse FindItems(FindItemsRequest request);
         
         // CODEGEN: Generating message contract since message ListParentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPare" +
@@ -135,7 +135,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListParentsResponse ListParents(Rs.ReportService2010.ListParentsRequest request);
+        ListParentsResponse ListParents(ListParentsRequest request);
         
         // CODEGEN: Generating message contract since message CreateFolderRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateFo" +
@@ -145,7 +145,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateFolderResponse CreateFolder(Rs.ReportService2010.CreateFolderRequest request);
+        CreateFolderResponse CreateFolder(CreateFolderRequest request);
         
         // CODEGEN: Generating message contract since message SetPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPrope" +
@@ -155,7 +155,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetPropertiesResponse SetProperties(Rs.ReportService2010.SetPropertiesRequest request);
+        SetPropertiesResponse SetProperties(SetPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message GetPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPrope" +
@@ -165,7 +165,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetPropertiesResponse GetProperties(Rs.ReportService2010.GetPropertiesRequest request);
+        GetPropertiesResponse GetProperties(GetPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetItemReferencesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemR" +
@@ -175,7 +175,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemReferencesResponse SetItemReferences(Rs.ReportService2010.SetItemReferencesRequest request);
+        SetItemReferencesResponse SetItemReferences(SetItemReferencesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemReferencesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemR" +
@@ -185,7 +185,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemReferencesResponse GetItemReferences(Rs.ReportService2010.GetItemReferencesRequest request);
+        GetItemReferencesResponse GetItemReferences(GetItemReferencesRequest request);
         
         // CODEGEN: Generating message contract since message ListItemTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListItem" +
@@ -195,7 +195,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListItemTypesResponse ListItemTypes(Rs.ReportService2010.ListItemTypesRequest request);
+        ListItemTypesResponse ListItemTypes(ListItemTypesRequest request);
         
         // CODEGEN: Generating message contract since message SetSubscriptionPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSubsc" +
@@ -205,7 +205,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetSubscriptionPropertiesResponse SetSubscriptionProperties(Rs.ReportService2010.SetSubscriptionPropertiesRequest request);
+        SetSubscriptionPropertiesResponse SetSubscriptionProperties(SetSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSubsc" +
@@ -215,7 +215,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetSubscriptionPropertiesResponse GetSubscriptionProperties(Rs.ReportService2010.GetSubscriptionPropertiesRequest request);
+        GetSubscriptionPropertiesResponse GetSubscriptionProperties(GetSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetDataDrivenSubscriptionPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataD" +
@@ -225,7 +225,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetDataDrivenSubscriptionPropertiesResponse SetDataDrivenSubscriptionProperties(Rs.ReportService2010.SetDataDrivenSubscriptionPropertiesRequest request);
+        SetDataDrivenSubscriptionPropertiesResponse SetDataDrivenSubscriptionProperties(SetDataDrivenSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataD" +
@@ -235,7 +235,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetDataDrivenSubscriptionPropertiesResponse GetDataDrivenSubscriptionProperties(Rs.ReportService2010.GetDataDrivenSubscriptionPropertiesRequest request);
+        GetDataDrivenSubscriptionPropertiesResponse GetDataDrivenSubscriptionProperties(GetDataDrivenSubscriptionPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSu" +
@@ -245,7 +245,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteSubscriptionResponse DeleteSubscription(Rs.ReportService2010.DeleteSubscriptionRequest request);
+        DeleteSubscriptionResponse DeleteSubscription(DeleteSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message CreateSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSu" +
@@ -255,7 +255,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateSubscriptionResponse CreateSubscription(Rs.ReportService2010.CreateSubscriptionRequest request);
+        CreateSubscriptionResponse CreateSubscription(CreateSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message CreateDataDrivenSubscriptionRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
@@ -265,7 +265,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateDataDrivenSubscriptionResponse CreateDataDrivenSubscription(Rs.ReportService2010.CreateDataDrivenSubscriptionRequest request);
+        CreateDataDrivenSubscriptionResponse CreateDataDrivenSubscription(CreateDataDrivenSubscriptionRequest request);
         
         // CODEGEN: Generating message contract since message GetExtensionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExten" +
@@ -275,7 +275,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetExtensionSettingsResponse GetExtensionSettings(Rs.ReportService2010.GetExtensionSettingsRequest request);
+        GetExtensionSettingsResponse GetExtensionSettings(GetExtensionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message ValidateExtensionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Validate" +
@@ -285,7 +285,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ValidateExtensionSettingsResponse ValidateExtensionSettings(Rs.ReportService2010.ValidateExtensionSettingsRequest request);
+        ValidateExtensionSettingsResponse ValidateExtensionSettings(ValidateExtensionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message ListSubscriptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
@@ -295,7 +295,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListSubscriptionsResponse ListSubscriptions(Rs.ReportService2010.ListSubscriptionsRequest request);
+        ListSubscriptionsResponse ListSubscriptions(ListSubscriptionsRequest request);
         
         // CODEGEN: Generating message contract since message ListMySubscriptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMySu" +
@@ -305,7 +305,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListMySubscriptionsResponse ListMySubscriptions(Rs.ReportService2010.ListMySubscriptionsRequest request);
+        ListMySubscriptionsResponse ListMySubscriptions(ListMySubscriptionsRequest request);
         
         // CODEGEN: Generating message contract since message ListSubscriptionsUsingDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSubs" +
@@ -315,7 +315,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListSubscriptionsUsingDataSourceResponse ListSubscriptionsUsingDataSource(Rs.ReportService2010.ListSubscriptionsUsingDataSourceRequest request);
+        ListSubscriptionsUsingDataSourceResponse ListSubscriptionsUsingDataSource(ListSubscriptionsUsingDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message ChangeSubscriptionOwnerRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ChangeSu" +
@@ -325,7 +325,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ChangeSubscriptionOwnerResponse ChangeSubscriptionOwner(Rs.ReportService2010.ChangeSubscriptionOwnerRequest request);
+        ChangeSubscriptionOwnerResponse ChangeSubscriptionOwner(ChangeSubscriptionOwnerRequest request);
         
         // CODEGEN: Generating message contract since message CreateDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateDa" +
@@ -335,7 +335,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateDataSourceResponse CreateDataSource(Rs.ReportService2010.CreateDataSourceRequest request);
+        CreateDataSourceResponse CreateDataSource(CreateDataSourceRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PrepareQ" +
@@ -345,7 +345,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.PrepareQueryResponse PrepareQuery(Rs.ReportService2010.PrepareQueryRequest request);
+        PrepareQueryResponse PrepareQuery(PrepareQueryRequest request);
         
         // CODEGEN: Generating message contract since message EnableDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/EnableDa" +
@@ -355,7 +355,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.EnableDataSourceResponse EnableDataSource(Rs.ReportService2010.EnableDataSourceRequest request);
+        EnableDataSourceResponse EnableDataSource(EnableDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message DisableDataSourceRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DisableD" +
@@ -365,7 +365,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DisableDataSourceResponse DisableDataSource(Rs.ReportService2010.DisableDataSourceRequest request);
+        DisableDataSourceResponse DisableDataSource(DisableDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message SetDataSourceContentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetDataS" +
@@ -375,7 +375,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetDataSourceContentsResponse SetDataSourceContents(Rs.ReportService2010.SetDataSourceContentsRequest request);
+        SetDataSourceContentsResponse SetDataSourceContents(SetDataSourceContentsRequest request);
         
         // CODEGEN: Generating message contract since message GetDataSourceContentsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetDataS" +
@@ -385,7 +385,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetDataSourceContentsResponse GetDataSourceContents(Rs.ReportService2010.GetDataSourceContentsRequest request);
+        GetDataSourceContentsResponse GetDataSourceContents(GetDataSourceContentsRequest request);
         
         // CODEGEN: Generating message contract since message ListDatabaseCredentialRetrievalOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListData" +
@@ -395,7 +395,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListDatabaseCredentialRetrievalOptionsResponse ListDatabaseCredentialRetrievalOptions(Rs.ReportService2010.ListDatabaseCredentialRetrievalOptionsRequest request);
+        ListDatabaseCredentialRetrievalOptionsResponse ListDatabaseCredentialRetrievalOptions(ListDatabaseCredentialRetrievalOptionsRequest request);
         
         // CODEGEN: Generating message contract since message SetItemDataSourcesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemD" +
@@ -405,7 +405,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemDataSourcesResponse SetItemDataSources(Rs.ReportService2010.SetItemDataSourcesRequest request);
+        SetItemDataSourcesResponse SetItemDataSources(SetItemDataSourcesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDataSourcesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -415,7 +415,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemDataSourcesResponse GetItemDataSources(Rs.ReportService2010.GetItemDataSourcesRequest request);
+        GetItemDataSourcesResponse GetItemDataSources(GetItemDataSourcesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
@@ -425,7 +425,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.TestConnectForDataSourceDefinitionResponse TestConnectForDataSourceDefinition(Rs.ReportService2010.TestConnectForDataSourceDefinitionRequest request);
+        TestConnectForDataSourceDefinitionResponse TestConnectForDataSourceDefinition(TestConnectForDataSourceDefinitionRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/TestConn" +
@@ -435,7 +435,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.TestConnectForItemDataSourceResponse TestConnectForItemDataSource(Rs.ReportService2010.TestConnectForItemDataSourceRequest request);
+        TestConnectForItemDataSourceResponse TestConnectForItemDataSource(TestConnectForItemDataSourceRequest request);
         
         // CODEGEN: Generating message contract since message CreateRoleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRo" +
@@ -445,7 +445,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateRoleResponse CreateRole(Rs.ReportService2010.CreateRoleRequest request);
+        CreateRoleResponse CreateRole(CreateRoleRequest request);
         
         // CODEGEN: Generating message contract since message SetRolePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetRoleP" +
@@ -455,7 +455,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetRolePropertiesResponse SetRoleProperties(Rs.ReportService2010.SetRolePropertiesRequest request);
+        SetRolePropertiesResponse SetRoleProperties(SetRolePropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRoleP" +
@@ -465,7 +465,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetRolePropertiesResponse GetRoleProperties(Rs.ReportService2010.GetRolePropertiesRequest request);
+        GetRolePropertiesResponse GetRoleProperties(GetRolePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteRoleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteRo" +
@@ -475,7 +475,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteRoleResponse DeleteRole(Rs.ReportService2010.DeleteRoleRequest request);
+        DeleteRoleResponse DeleteRole(DeleteRoleRequest request);
         
         // CODEGEN: Generating message contract since message ListRolesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListRole" +
@@ -485,7 +485,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListRolesResponse ListRoles(Rs.ReportService2010.ListRolesRequest request);
+        ListRolesResponse ListRoles(ListRolesRequest request);
         
         // CODEGEN: Generating message contract since message ListTasksRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListTask" +
@@ -495,7 +495,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListTasksResponse ListTasks(Rs.ReportService2010.ListTasksRequest request);
+        ListTasksResponse ListTasks(ListTasksRequest request);
         
         // CODEGEN: Generating message contract since message SetPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetPolic" +
@@ -505,7 +505,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetPoliciesResponse SetPolicies(Rs.ReportService2010.SetPoliciesRequest request);
+        SetPoliciesResponse SetPolicies(SetPoliciesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPolic" +
@@ -515,7 +515,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetPoliciesResponse GetPolicies(Rs.ReportService2010.GetPoliciesRequest request);
+        GetPoliciesResponse GetPolicies(GetPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetItemDataSourcePromptsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemD" +
@@ -525,7 +525,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemDataSourcePromptsResponse GetItemDataSourcePrompts(Rs.ReportService2010.GetItemDataSourcePromptsRequest request);
+        GetItemDataSourcePromptsResponse GetItemDataSourcePrompts(GetItemDataSourcePromptsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Generate" +
@@ -535,7 +535,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GenerateModelResponse GenerateModel(Rs.ReportService2010.GenerateModelRequest request);
+        GenerateModelResponse GenerateModel(GenerateModelRequest request);
         
         // CODEGEN: Generating message contract since message GetModelItemPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
@@ -545,7 +545,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetModelItemPermissionsResponse GetModelItemPermissions(Rs.ReportService2010.GetModelItemPermissionsRequest request);
+        GetModelItemPermissionsResponse GetModelItemPermissions(GetModelItemPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message SetModelItemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
@@ -555,7 +555,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetModelItemPoliciesResponse SetModelItemPolicies(Rs.ReportService2010.SetModelItemPoliciesRequest request);
+        SetModelItemPoliciesResponse SetModelItemPolicies(SetModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetModel" +
@@ -565,7 +565,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetModelItemPoliciesResponse GetModelItemPolicies(Rs.ReportService2010.GetModelItemPoliciesRequest request);
+        GetModelItemPoliciesResponse GetModelItemPolicies(GetModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetUserModelRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetUserM" +
@@ -575,7 +575,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetUserModelResponse GetUserModel(Rs.ReportService2010.GetUserModelRequest request);
+        GetUserModelResponse GetUserModel(GetUserModelRequest request);
         
         // CODEGEN: Generating message contract since message InheritModelItemParentSecurityRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/InheritM" +
@@ -585,7 +585,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.InheritModelItemParentSecurityResponse InheritModelItemParentSecurity(Rs.ReportService2010.InheritModelItemParentSecurityRequest request);
+        InheritModelItemParentSecurityResponse InheritModelItemParentSecurity(InheritModelItemParentSecurityRequest request);
         
         // CODEGEN: Generating message contract since message SetModelDrillthroughReportsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetModel" +
@@ -595,7 +595,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetModelDrillthroughReportsResponse SetModelDrillthroughReports(Rs.ReportService2010.SetModelDrillthroughReportsRequest request);
+        SetModelDrillthroughReportsResponse SetModelDrillthroughReports(SetModelDrillthroughReportsRequest request);
         
         // CODEGEN: Generating message contract since message ListModelDrillthroughReportsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -605,7 +605,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListModelDrillthroughReportsResponse ListModelDrillthroughReports(Rs.ReportService2010.ListModelDrillthroughReportsRequest request);
+        ListModelDrillthroughReportsResponse ListModelDrillthroughReports(ListModelDrillthroughReportsRequest request);
         
         // CODEGEN: Generating message contract since message ListModelItemChildrenRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -615,7 +615,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListModelItemChildrenResponse ListModelItemChildren(Rs.ReportService2010.ListModelItemChildrenRequest request);
+        ListModelItemChildrenResponse ListModelItemChildren(ListModelItemChildrenRequest request);
         
         // CODEGEN: Generating message contract since message ListModelItemTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -625,7 +625,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListModelItemTypesResponse ListModelItemTypes(Rs.ReportService2010.ListModelItemTypesRequest request);
+        ListModelItemTypesResponse ListModelItemTypes(ListModelItemTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListModelPerspectivesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListMode" +
@@ -635,7 +635,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListModelPerspectivesResponse ListModelPerspectives(Rs.ReportService2010.ListModelPerspectivesRequest request);
+        ListModelPerspectivesResponse ListModelPerspectives(ListModelPerspectivesRequest request);
         
         // CODEGEN: Generating message contract since message RegenerateModelRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Regenera" +
@@ -645,7 +645,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.RegenerateModelResponse RegenerateModel(Rs.ReportService2010.RegenerateModelRequest request);
+        RegenerateModelResponse RegenerateModel(RegenerateModelRequest request);
         
         // CODEGEN: Generating message contract since message RemoveAllModelItemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/RemoveAl" +
@@ -655,7 +655,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.RemoveAllModelItemPoliciesResponse RemoveAllModelItemPolicies(Rs.ReportService2010.RemoveAllModelItemPoliciesRequest request);
+        RemoveAllModelItemPoliciesResponse RemoveAllModelItemPolicies(RemoveAllModelItemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message CreateScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateSc" +
@@ -665,7 +665,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateScheduleResponse CreateSchedule(Rs.ReportService2010.CreateScheduleRequest request);
+        CreateScheduleResponse CreateSchedule(CreateScheduleRequest request);
         
         // CODEGEN: Generating message contract since message DeleteScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteSc" +
@@ -675,7 +675,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteScheduleResponse DeleteSchedule(Rs.ReportService2010.DeleteScheduleRequest request);
+        DeleteScheduleResponse DeleteSchedule(DeleteScheduleRequest request);
         
         // CODEGEN: Generating message contract since message ListSchedulesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -685,7 +685,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListSchedulesResponse ListSchedules(Rs.ReportService2010.ListSchedulesRequest request);
+        ListSchedulesResponse ListSchedules(ListSchedulesRequest request);
         
         // CODEGEN: Generating message contract since message GetSchedulePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSched" +
@@ -695,7 +695,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetSchedulePropertiesResponse GetScheduleProperties(Rs.ReportService2010.GetSchedulePropertiesRequest request);
+        GetSchedulePropertiesResponse GetScheduleProperties(GetSchedulePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message ListScheduleStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -705,7 +705,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListScheduleStatesResponse ListScheduleStates(Rs.ReportService2010.ListScheduleStatesRequest request);
+        ListScheduleStatesResponse ListScheduleStates(ListScheduleStatesRequest request);
         
         // CODEGEN: Generating message contract since message PauseScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/PauseSch" +
@@ -715,7 +715,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.PauseScheduleResponse PauseSchedule(Rs.ReportService2010.PauseScheduleRequest request);
+        PauseScheduleResponse PauseSchedule(PauseScheduleRequest request);
         
         // CODEGEN: Generating message contract since message ResumeScheduleRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ResumeSc" +
@@ -725,7 +725,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ResumeScheduleResponse ResumeSchedule(Rs.ReportService2010.ResumeScheduleRequest request);
+        ResumeScheduleResponse ResumeSchedule(ResumeScheduleRequest request);
         
         // CODEGEN: Generating message contract since message SetSchedulePropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSched" +
@@ -735,7 +735,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetSchedulePropertiesResponse SetScheduleProperties(Rs.ReportService2010.SetSchedulePropertiesRequest request);
+        SetSchedulePropertiesResponse SetScheduleProperties(SetSchedulePropertiesRequest request);
         
         // CODEGEN: Generating message contract since message ListScheduledItemsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSche" +
@@ -745,7 +745,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListScheduledItemsResponse ListScheduledItems(Rs.ReportService2010.ListScheduledItemsRequest request);
+        ListScheduledItemsResponse ListScheduledItems(ListScheduledItemsRequest request);
         
         // CODEGEN: Generating message contract since message SetItemParametersRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemP" +
@@ -755,7 +755,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemParametersResponse SetItemParameters(Rs.ReportService2010.SetItemParametersRequest request);
+        SetItemParametersResponse SetItemParameters(SetItemParametersRequest request);
         
         // CODEGEN: Generating message contract since message GetItemParametersRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemP" +
@@ -765,7 +765,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemParametersResponse GetItemParameters(Rs.ReportService2010.GetItemParametersRequest request);
+        GetItemParametersResponse GetItemParameters(GetItemParametersRequest request);
         
         // CODEGEN: Generating message contract since message ListParameterTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
@@ -775,7 +775,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListParameterTypesResponse ListParameterTypes(Rs.ReportService2010.ListParameterTypesRequest request);
+        ListParameterTypesResponse ListParameterTypes(ListParameterTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListParameterStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListPara" +
@@ -785,7 +785,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListParameterStatesResponse ListParameterStates(Rs.ReportService2010.ListParameterStatesRequest request);
+        ListParameterStatesResponse ListParameterStates(ListParameterStatesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateRe" +
@@ -795,7 +795,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateReportEditSessionResponse CreateReportEditSession(Rs.ReportService2010.CreateReportEditSessionRequest request);
+        CreateReportEditSessionResponse CreateReportEditSession(CreateReportEditSessionRequest request);
         
         // CODEGEN: Generating message contract since message CreateLinkedItemRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateLi" +
@@ -805,7 +805,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateLinkedItemResponse CreateLinkedItem(Rs.ReportService2010.CreateLinkedItemRequest request);
+        CreateLinkedItemResponse CreateLinkedItem(CreateLinkedItemRequest request);
         
         // CODEGEN: Generating message contract since message SetItemLinkRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemL" +
@@ -815,7 +815,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemLinkResponse SetItemLink(Rs.ReportService2010.SetItemLinkRequest request);
+        SetItemLinkResponse SetItemLink(SetItemLinkRequest request);
         
         // CODEGEN: Generating message contract since message GetItemLinkRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemL" +
@@ -825,7 +825,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemLinkResponse GetItemLink(Rs.ReportService2010.GetItemLinkRequest request);
+        GetItemLinkResponse GetItemLink(GetItemLinkRequest request);
         
         // CODEGEN: Generating message contract since message ListExecutionSettingsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExec" +
@@ -835,7 +835,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListExecutionSettingsResponse ListExecutionSettings(Rs.ReportService2010.ListExecutionSettingsRequest request);
+        ListExecutionSettingsResponse ListExecutionSettings(ListExecutionSettingsRequest request);
         
         // CODEGEN: Generating message contract since message SetExecutionOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetExecu" +
@@ -845,7 +845,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetExecutionOptionsResponse SetExecutionOptions(Rs.ReportService2010.SetExecutionOptionsRequest request);
+        SetExecutionOptionsResponse SetExecutionOptions(SetExecutionOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetExecu" +
@@ -855,7 +855,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetExecutionOptionsResponse GetExecutionOptions(Rs.ReportService2010.GetExecutionOptionsRequest request);
+        GetExecutionOptionsResponse GetExecutionOptions(GetExecutionOptionsRequest request);
         
         // CODEGEN: Generating message contract since message UpdateItemExecutionSnapshotRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/UpdateIt" +
@@ -865,7 +865,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.UpdateItemExecutionSnapshotResponse UpdateItemExecutionSnapshot(Rs.ReportService2010.UpdateItemExecutionSnapshotRequest request);
+        UpdateItemExecutionSnapshotResponse UpdateItemExecutionSnapshot(UpdateItemExecutionSnapshotRequest request);
         
         // CODEGEN: Generating message contract since message SetCacheOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
@@ -875,7 +875,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetCacheOptionsResponse SetCacheOptions(Rs.ReportService2010.SetCacheOptionsRequest request);
+        SetCacheOptionsResponse SetCacheOptions(SetCacheOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
@@ -885,7 +885,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetCacheOptionsResponse GetCacheOptions(Rs.ReportService2010.GetCacheOptionsRequest request);
+        GetCacheOptionsResponse GetCacheOptions(GetCacheOptionsRequest request);
         
         // CODEGEN: Generating message contract since message FlushCacheRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FlushCac" +
@@ -895,7 +895,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.FlushCacheResponse FlushCache(Rs.ReportService2010.FlushCacheRequest request);
+        FlushCacheResponse FlushCache(FlushCacheRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateIt" +
@@ -905,7 +905,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateItemHistorySnapshotResponse CreateItemHistorySnapshot(Rs.ReportService2010.CreateItemHistorySnapshotRequest request);
+        CreateItemHistorySnapshotResponse CreateItemHistorySnapshot(CreateItemHistorySnapshotRequest request);
         
         // CODEGEN: Generating message contract since message DeleteItemHistorySnapshotRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteIt" +
@@ -915,7 +915,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteItemHistorySnapshotResponse DeleteItemHistorySnapshot(Rs.ReportService2010.DeleteItemHistorySnapshotRequest request);
+        DeleteItemHistorySnapshotResponse DeleteItemHistorySnapshot(DeleteItemHistorySnapshotRequest request);
         
         // CODEGEN: Generating message contract since message SetItemHistoryLimitRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
@@ -925,7 +925,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemHistoryLimitResponse SetItemHistoryLimit(Rs.ReportService2010.SetItemHistoryLimitRequest request);
+        SetItemHistoryLimitResponse SetItemHistoryLimit(SetItemHistoryLimitRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
@@ -935,7 +935,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemHistoryLimitResponse GetItemHistoryLimit(Rs.ReportService2010.GetItemHistoryLimitRequest request);
+        GetItemHistoryLimitResponse GetItemHistoryLimit(GetItemHistoryLimitRequest request);
         
         // CODEGEN: Generating message contract since message SetItemHistoryOptionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetItemH" +
@@ -945,7 +945,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetItemHistoryOptionsResponse SetItemHistoryOptions(Rs.ReportService2010.SetItemHistoryOptionsRequest request);
+        SetItemHistoryOptionsResponse SetItemHistoryOptions(SetItemHistoryOptionsRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetItemH" +
@@ -955,7 +955,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetItemHistoryOptionsResponse GetItemHistoryOptions(Rs.ReportService2010.GetItemHistoryOptionsRequest request);
+        GetItemHistoryOptionsResponse GetItemHistoryOptions(GetItemHistoryOptionsRequest request);
         
         // CODEGEN: Generating message contract since message GetReportServerConfigInfoRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetRepor" +
@@ -965,7 +965,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetReportServerConfigInfoResponse GetReportServerConfigInfo(Rs.ReportService2010.GetReportServerConfigInfoRequest request);
+        GetReportServerConfigInfoResponse GetReportServerConfigInfo(GetReportServerConfigInfoRequest request);
         
         // CODEGEN: Generating message contract since message IsSSLRequiredRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/IsSSLReq" +
@@ -975,7 +975,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.IsSSLRequiredResponse IsSSLRequired(Rs.ReportService2010.IsSSLRequiredRequest request);
+        IsSSLRequiredResponse IsSSLRequired(IsSSLRequiredRequest request);
         
         // CODEGEN: Generating message contract since message SetSystemPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
@@ -985,7 +985,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetSystemPropertiesResponse SetSystemProperties(Rs.ReportService2010.SetSystemPropertiesRequest request);
+        SetSystemPropertiesResponse SetSystemProperties(SetSystemPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -995,7 +995,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetSystemPropertiesResponse GetSystemProperties(Rs.ReportService2010.GetSystemPropertiesRequest request);
+        GetSystemPropertiesResponse GetSystemProperties(GetSystemPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message SetSystemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetSyste" +
@@ -1005,7 +1005,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetSystemPoliciesResponse SetSystemPolicies(Rs.ReportService2010.SetSystemPoliciesRequest request);
+        SetSystemPoliciesResponse SetSystemPolicies(SetSystemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPoliciesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -1015,7 +1015,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetSystemPoliciesResponse GetSystemPolicies(Rs.ReportService2010.GetSystemPoliciesRequest request);
+        GetSystemPoliciesResponse GetSystemPolicies(GetSystemPoliciesRequest request);
         
         // CODEGEN: Generating message contract since message ListExtensionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
@@ -1025,7 +1025,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListExtensionsResponse ListExtensions(Rs.ReportService2010.ListExtensionsRequest request);
+        ListExtensionsResponse ListExtensions(ListExtensionsRequest request);
         
         // CODEGEN: Generating message contract since message ListExtensionTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListExte" +
@@ -1035,7 +1035,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListExtensionTypesResponse ListExtensionTypes(Rs.ReportService2010.ListExtensionTypesRequest request);
+        ListExtensionTypesResponse ListExtensionTypes(ListExtensionTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListEventsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListEven" +
@@ -1045,7 +1045,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListEventsResponse ListEvents(Rs.ReportService2010.ListEventsRequest request);
+        ListEventsResponse ListEvents(ListEventsRequest request);
         
         // CODEGEN: Generating message contract since message FireEventRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/FireEven" +
@@ -1055,7 +1055,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.FireEventResponse FireEvent(Rs.ReportService2010.FireEventRequest request);
+        FireEventResponse FireEvent(FireEventRequest request);
         
         // CODEGEN: Generating message contract since message ListJobsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobs" +
@@ -1065,7 +1065,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListJobsResponse ListJobs(Rs.ReportService2010.ListJobsRequest request);
+        ListJobsResponse ListJobs(ListJobsRequest request);
         
         // CODEGEN: Generating message contract since message ListJobTypesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobT" +
@@ -1075,7 +1075,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListJobTypesResponse ListJobTypes(Rs.ReportService2010.ListJobTypesRequest request);
+        ListJobTypesResponse ListJobTypes(ListJobTypesRequest request);
         
         // CODEGEN: Generating message contract since message ListJobActionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobA" +
@@ -1085,7 +1085,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListJobActionsResponse ListJobActions(Rs.ReportService2010.ListJobActionsRequest request);
+        ListJobActionsResponse ListJobActions(ListJobActionsRequest request);
         
         // CODEGEN: Generating message contract since message ListJobStatesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListJobS" +
@@ -1095,7 +1095,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListJobStatesResponse ListJobStates(Rs.ReportService2010.ListJobStatesRequest request);
+        ListJobStatesResponse ListJobStates(ListJobStatesRequest request);
         
         // CODEGEN: Generating message contract since message CancelJobRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CancelJo" +
@@ -1105,7 +1105,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CancelJobResponse CancelJob(Rs.ReportService2010.CancelJobRequest request);
+        CancelJobResponse CancelJob(CancelJobRequest request);
         
         // CODEGEN: Generating message contract since message CreateCacheRefreshPlanRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/CreateCa" +
@@ -1115,7 +1115,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.CreateCacheRefreshPlanResponse CreateCacheRefreshPlan(Rs.ReportService2010.CreateCacheRefreshPlanRequest request);
+        CreateCacheRefreshPlanResponse CreateCacheRefreshPlan(CreateCacheRefreshPlanRequest request);
         
         // CODEGEN: Generating message contract since message SetCacheRefreshPlanPropertiesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/SetCache" +
@@ -1125,7 +1125,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.SetCacheRefreshPlanPropertiesResponse SetCacheRefreshPlanProperties(Rs.ReportService2010.SetCacheRefreshPlanPropertiesRequest request);
+        SetCacheRefreshPlanPropertiesResponse SetCacheRefreshPlanProperties(SetCacheRefreshPlanPropertiesRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetCache" +
@@ -1135,7 +1135,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetCacheRefreshPlanPropertiesResponse GetCacheRefreshPlanProperties(Rs.ReportService2010.GetCacheRefreshPlanPropertiesRequest request);
+        GetCacheRefreshPlanPropertiesResponse GetCacheRefreshPlanProperties(GetCacheRefreshPlanPropertiesRequest request);
         
         // CODEGEN: Generating message contract since message DeleteCacheRefreshPlanRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/DeleteCa" +
@@ -1145,7 +1145,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.DeleteCacheRefreshPlanResponse DeleteCacheRefreshPlan(Rs.ReportService2010.DeleteCacheRefreshPlanRequest request);
+        DeleteCacheRefreshPlanResponse DeleteCacheRefreshPlan(DeleteCacheRefreshPlanRequest request);
         
         // CODEGEN: Generating message contract since message ListCacheRefreshPlansRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListCach" +
@@ -1155,7 +1155,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListCacheRefreshPlansResponse ListCacheRefreshPlans(Rs.ReportService2010.ListCacheRefreshPlansRequest request);
+        ListCacheRefreshPlansResponse ListCacheRefreshPlans(ListCacheRefreshPlansRequest request);
         
         // CODEGEN: Generating message contract since message LogonUserRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/LogonUse" +
@@ -1165,7 +1165,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.LogonUserResponse LogonUser(Rs.ReportService2010.LogonUserRequest request);
+        LogonUserResponse LogonUser(LogonUserRequest request);
         
         // CODEGEN: Generating message contract since message LogoffRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/Logoff")]
@@ -1174,7 +1174,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.LogoffResponse Logoff(Rs.ReportService2010.LogoffRequest request);
+        LogoffResponse Logoff(LogoffRequest request);
         
         // CODEGEN: Generating message contract since message GetPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetPermi" +
@@ -1184,7 +1184,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetPermissionsResponse GetPermissions(Rs.ReportService2010.GetPermissionsRequest request);
+        GetPermissionsResponse GetPermissions(GetPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message GetSystemPermissionsRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/GetSyste" +
@@ -1194,7 +1194,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.GetSystemPermissionsResponse GetSystemPermissions(Rs.ReportService2010.GetSystemPermissionsRequest request);
+        GetSystemPermissionsResponse GetSystemPermissions(GetSystemPermissionsRequest request);
         
         // CODEGEN: Generating message contract since message ListSecurityScopesRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer/ListSecu" +
@@ -1204,7 +1204,7 @@ namespace Rs.ReportService2010
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(RecurrencePattern))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ScheduleDefinitionOrReference))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(DataSourceDefinitionOrReference))]
-        Rs.ReportService2010.ListSecurityScopesResponse ListSecurityScopes(Rs.ReportService2010.ListSecurityScopesRequest request);
+        ListSecurityScopesResponse ListSecurityScopes(ListSecurityScopesRequest request);
     }
     
     /// <remarks/>
@@ -6192,7 +6192,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemType;
@@ -6211,13 +6211,13 @@ namespace Rs.ReportService2010
         public byte[] Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public CreateCatalogItemRequest()
         {
         }
         
-        public CreateCatalogItemRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Rs.ReportService2010.Property[] Properties)
+        public CreateCatalogItemRequest(TrustedUserHeader TrustedUserHeader, string ItemType, string Name, string Parent, bool Overwrite, byte[] Definition, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemType = ItemType;
@@ -6236,19 +6236,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem ItemInfo;
+        public CatalogItem ItemInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public CreateCatalogItemResponse()
         {
         }
         
-        public CreateCatalogItemResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem ItemInfo, Rs.ReportService2010.Warning[] Warnings)
+        public CreateCatalogItemResponse(ServerInfoHeader ServerInfoHeader, CatalogItem ItemInfo, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
@@ -6264,7 +6264,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6274,13 +6274,13 @@ namespace Rs.ReportService2010
         public byte[] Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public SetItemDefinitionRequest()
         {
         }
         
-        public SetItemDefinitionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Rs.ReportService2010.Property[] Properties)
+        public SetItemDefinitionRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, byte[] Definition, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6297,16 +6297,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public SetItemDefinitionResponse()
         {
         }
         
-        public SetItemDefinitionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Warning[] Warnings)
+        public SetItemDefinitionResponse(ServerInfoHeader ServerInfoHeader, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Warnings = Warnings;
@@ -6321,7 +6321,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6330,7 +6330,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemDefinitionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemDefinitionRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6345,7 +6345,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -6355,7 +6355,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemDefinitionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, byte[] Definition)
+        public GetItemDefinitionResponse(ServerInfoHeader ServerInfoHeader, byte[] Definition)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
@@ -6370,7 +6370,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6379,7 +6379,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemTypeRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemTypeRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6394,7 +6394,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Type;
@@ -6403,7 +6403,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemTypeResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string Type)
+        public GetItemTypeResponse(ServerInfoHeader ServerInfoHeader, string Type)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Type = Type;
@@ -6418,7 +6418,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6427,7 +6427,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteItemRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public DeleteItemRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6442,13 +6442,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteItemResponse()
         {
         }
         
-        public DeleteItemResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteItemResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -6462,7 +6462,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6474,7 +6474,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public MoveItemRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string Target)
+        public MoveItemRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string Target)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6490,13 +6490,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public MoveItemResponse()
         {
         }
         
-        public MoveItemResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public MoveItemResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -6510,7 +6510,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6519,7 +6519,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public InheritParentSecurityRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public InheritParentSecurityRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6534,13 +6534,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public InheritParentSecurityResponse()
         {
         }
         
-        public InheritParentSecurityResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public InheritParentSecurityResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -6554,7 +6554,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6563,7 +6563,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListItemHistoryRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public ListItemHistoryRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6578,16 +6578,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ItemHistorySnapshot[] ItemHistory;
+        public ItemHistorySnapshot[] ItemHistory;
         
         public ListItemHistoryResponse()
         {
         }
         
-        public ListItemHistoryResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ItemHistorySnapshot[] ItemHistory)
+        public ListItemHistoryResponse(ServerInfoHeader ServerInfoHeader, ItemHistorySnapshot[] ItemHistory)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemHistory = ItemHistory;
@@ -6602,7 +6602,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6614,7 +6614,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListChildrenRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive)
+        public ListChildrenRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, bool Recursive)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6630,16 +6630,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem[] CatalogItems;
+        public CatalogItem[] CatalogItems;
         
         public ListChildrenResponse()
         {
         }
         
-        public ListChildrenResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem[] CatalogItems)
+        public ListChildrenResponse(ServerInfoHeader ServerInfoHeader, CatalogItem[] CatalogItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CatalogItems = CatalogItems;
@@ -6654,7 +6654,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6663,7 +6663,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListDependentItemsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public ListDependentItemsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6678,16 +6678,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem[] CatalogItems;
+        public CatalogItem[] CatalogItems;
         
         public ListDependentItemsResponse()
         {
         }
         
-        public ListDependentItemsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem[] CatalogItems)
+        public ListDependentItemsResponse(ServerInfoHeader ServerInfoHeader, CatalogItem[] CatalogItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CatalogItems = CatalogItems;
@@ -6716,25 +6716,25 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Folder;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.BooleanOperatorEnum BooleanOperator;
+        public BooleanOperatorEnum BooleanOperator;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.Property[] SearchOptions;
+        public Property[] SearchOptions;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.SearchCondition[] SearchConditions;
+        public SearchCondition[] SearchConditions;
         
         public FindItemsRequest()
         {
         }
         
-        public FindItemsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Folder, Rs.ReportService2010.BooleanOperatorEnum BooleanOperator, Rs.ReportService2010.Property[] SearchOptions, Rs.ReportService2010.SearchCondition[] SearchConditions)
+        public FindItemsRequest(TrustedUserHeader TrustedUserHeader, string Folder, BooleanOperatorEnum BooleanOperator, Property[] SearchOptions, SearchCondition[] SearchConditions)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Folder = Folder;
@@ -6752,16 +6752,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem[] Items;
+        public CatalogItem[] Items;
         
         public FindItemsResponse()
         {
         }
         
-        public FindItemsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem[] Items)
+        public FindItemsResponse(ServerInfoHeader ServerInfoHeader, CatalogItem[] Items)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Items = Items;
@@ -6776,7 +6776,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -6785,7 +6785,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListParentsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public ListParentsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6800,16 +6800,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem[] ListParentsResult;
+        public CatalogItem[] ListParentsResult;
         
         public ListParentsResponse()
         {
         }
         
-        public ListParentsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem[] ListParentsResult)
+        public ListParentsResponse(ServerInfoHeader ServerInfoHeader, CatalogItem[] ListParentsResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParentsResult = ListParentsResult;
@@ -6824,7 +6824,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Folder;
@@ -6833,13 +6833,13 @@ namespace Rs.ReportService2010
         public string Parent;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public CreateFolderRequest()
         {
         }
         
-        public CreateFolderRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Rs.ReportService2010.Property[] Properties)
+        public CreateFolderRequest(TrustedUserHeader TrustedUserHeader, string Folder, string Parent, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Folder = Folder;
@@ -6856,16 +6856,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem ItemInfo;
+        public CatalogItem ItemInfo;
         
         public CreateFolderResponse()
         {
         }
         
-        public CreateFolderResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem ItemInfo)
+        public CreateFolderResponse(ServerInfoHeader ServerInfoHeader, CatalogItem ItemInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
@@ -6880,19 +6880,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public SetPropertiesRequest()
         {
         }
         
-        public SetPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.Property[] Properties)
+        public SetPropertiesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -6908,13 +6908,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetPropertiesResponse()
         {
         }
         
-        public SetPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetPropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -6928,22 +6928,22 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ItemNamespaceHeader ItemNamespaceHeader;
+        public ItemNamespaceHeader ItemNamespaceHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public GetPropertiesRequest()
         {
         }
         
-        public GetPropertiesRequest(Rs.ReportService2010.ItemNamespaceHeader ItemNamespaceHeader, Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.Property[] Properties)
+        public GetPropertiesRequest(ItemNamespaceHeader ItemNamespaceHeader, TrustedUserHeader TrustedUserHeader, string ItemPath, Property[] Properties)
         {
             this.ItemNamespaceHeader = ItemNamespaceHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -6960,16 +6960,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Property[] Values;
+        public Property[] Values;
         
         public GetPropertiesResponse()
         {
         }
         
-        public GetPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Property[] Values)
+        public GetPropertiesResponse(ServerInfoHeader ServerInfoHeader, Property[] Values)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Values = Values;
@@ -6984,19 +6984,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ItemReference[] ItemReferences;
+        public ItemReference[] ItemReferences;
         
         public SetItemReferencesRequest()
         {
         }
         
-        public SetItemReferencesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.ItemReference[] ItemReferences)
+        public SetItemReferencesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, ItemReference[] ItemReferences)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -7012,13 +7012,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemReferencesResponse()
         {
         }
         
-        public SetItemReferencesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemReferencesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -7032,7 +7032,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -7044,7 +7044,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemReferencesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType)
+        public GetItemReferencesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string ReferenceItemType)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -7060,16 +7060,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ItemReferenceData[] ItemReferences;
+        public ItemReferenceData[] ItemReferences;
         
         public GetItemReferencesResponse()
         {
         }
         
-        public GetItemReferencesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ItemReferenceData[] ItemReferences)
+        public GetItemReferencesResponse(ServerInfoHeader ServerInfoHeader, ItemReferenceData[] ItemReferences)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemReferences = ItemReferences;
@@ -7084,13 +7084,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListItemTypesRequest()
         {
         }
         
-        public ListItemTypesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListItemTypesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -7104,7 +7104,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListItemTypesResult;
@@ -7113,7 +7113,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListItemTypesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListItemTypesResult)
+        public ListItemTypesResponse(ServerInfoHeader ServerInfoHeader, string[] ListItemTypesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListItemTypesResult = ListItemTypesResult;
@@ -7128,13 +7128,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
@@ -7146,13 +7146,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public SetSubscriptionPropertiesRequest()
         {
         }
         
-        public SetSubscriptionPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SubscriptionID, Rs.ReportService2010.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public SetSubscriptionPropertiesRequest(TrustedUserHeader TrustedUserHeader, string SubscriptionID, ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7172,13 +7172,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetSubscriptionPropertiesResponse()
         {
         }
         
-        public SetSubscriptionPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetSubscriptionPropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -7191,7 +7191,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7200,7 +7200,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetSubscriptionPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SubscriptionID)
+        public GetSubscriptionPropertiesRequest(TrustedUserHeader TrustedUserHeader, string SubscriptionID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7214,19 +7214,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Owner;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.ActiveState Active;
+        public ActiveState Active;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
         public string Status;
@@ -7238,13 +7238,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=7)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public GetSubscriptionPropertiesResponse()
         {
         }
         
-        public GetSubscriptionPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string Owner, Rs.ReportService2010.ExtensionSettings ExtensionSettings, string Description, Rs.ReportService2010.ActiveState Active, string Status, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public GetSubscriptionPropertiesResponse(ServerInfoHeader ServerInfoHeader, string Owner, ExtensionSettings ExtensionSettings, string Description, ActiveState Active, string Status, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Owner = Owner;
@@ -7266,16 +7266,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataDrivenSubscriptionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan;
+        public DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
@@ -7287,13 +7287,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=6)]
-        public Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters;
+        public ParameterValueOrFieldReference[] Parameters;
         
         public SetDataDrivenSubscriptionPropertiesRequest()
         {
         }
         
-        public SetDataDrivenSubscriptionPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, Rs.ReportService2010.ExtensionSettings ExtensionSettings, Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters)
+        public SetDataDrivenSubscriptionPropertiesRequest(TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID, ExtensionSettings ExtensionSettings, DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, ParameterValueOrFieldReference[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
@@ -7314,13 +7314,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetDataDrivenSubscriptionPropertiesResponse()
         {
         }
         
-        public SetDataDrivenSubscriptionPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetDataDrivenSubscriptionPropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -7333,7 +7333,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataDrivenSubscriptionID;
@@ -7342,7 +7342,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetDataDrivenSubscriptionPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID)
+        public GetDataDrivenSubscriptionPropertiesRequest(TrustedUserHeader TrustedUserHeader, string DataDrivenSubscriptionID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataDrivenSubscriptionID = DataDrivenSubscriptionID;
@@ -7356,22 +7356,22 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Owner;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan;
+        public DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Rs.ReportService2010.ActiveState Active;
+        public ActiveState Active;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
         public string Status;
@@ -7383,13 +7383,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=8)]
-        public Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters;
+        public ParameterValueOrFieldReference[] Parameters;
         
         public GetDataDrivenSubscriptionPropertiesResponse()
         {
         }
         
-        public GetDataDrivenSubscriptionPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string Owner, Rs.ReportService2010.ExtensionSettings ExtensionSettings, Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan, string Description, Rs.ReportService2010.ActiveState Active, string Status, string EventType, string MatchData, Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters)
+        public GetDataDrivenSubscriptionPropertiesResponse(ServerInfoHeader ServerInfoHeader, string Owner, ExtensionSettings ExtensionSettings, DataRetrievalPlan DataRetrievalPlan, string Description, ActiveState Active, string Status, string EventType, string MatchData, ParameterValueOrFieldReference[] Parameters)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Owner = Owner;
@@ -7412,7 +7412,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7421,7 +7421,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteSubscriptionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SubscriptionID)
+        public DeleteSubscriptionRequest(TrustedUserHeader TrustedUserHeader, string SubscriptionID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7436,13 +7436,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteSubscriptionResponse()
         {
         }
         
-        public DeleteSubscriptionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteSubscriptionResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -7456,13 +7456,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string Description;
@@ -7474,13 +7474,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public CreateSubscriptionRequest()
         {
         }
         
-        public CreateSubscriptionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public CreateSubscriptionRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -7500,7 +7500,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7509,7 +7509,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateSubscriptionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string SubscriptionID)
+        public CreateSubscriptionResponse(ServerInfoHeader ServerInfoHeader, string SubscriptionID)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7524,16 +7524,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ExtensionSettings ExtensionSettings;
+        public ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan;
+        public DataRetrievalPlan DataRetrievalPlan;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string Description;
@@ -7545,13 +7545,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=6)]
-        public Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters;
+        public ParameterValueOrFieldReference[] Parameters;
         
         public CreateDataDrivenSubscriptionRequest()
         {
         }
         
-        public CreateDataDrivenSubscriptionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.ExtensionSettings ExtensionSettings, Rs.ReportService2010.DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValueOrFieldReference[] Parameters)
+        public CreateDataDrivenSubscriptionRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, ExtensionSettings ExtensionSettings, DataRetrievalPlan DataRetrievalPlan, string Description, string EventType, string MatchData, ParameterValueOrFieldReference[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -7572,7 +7572,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7581,7 +7581,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateDataDrivenSubscriptionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string SubscriptionID)
+        public CreateDataDrivenSubscriptionResponse(ServerInfoHeader ServerInfoHeader, string SubscriptionID)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7596,7 +7596,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Extension;
@@ -7605,7 +7605,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetExtensionSettingsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Extension)
+        public GetExtensionSettingsRequest(TrustedUserHeader TrustedUserHeader, string Extension)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Extension = Extension;
@@ -7620,16 +7620,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ExtensionParameter[] ExtensionParameters;
+        public ExtensionParameter[] ExtensionParameters;
         
         public GetExtensionSettingsResponse()
         {
         }
         
-        public GetExtensionSettingsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ExtensionParameter[] ExtensionParameters)
+        public GetExtensionSettingsResponse(ServerInfoHeader ServerInfoHeader, ExtensionParameter[] ExtensionParameters)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ExtensionParameters = ExtensionParameters;
@@ -7644,13 +7644,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Extension;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ParameterValueOrFieldReference[] ParameterValues;
+        public ParameterValueOrFieldReference[] ParameterValues;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string SiteUrl;
@@ -7659,7 +7659,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ValidateExtensionSettingsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Extension, Rs.ReportService2010.ParameterValueOrFieldReference[] ParameterValues, string SiteUrl)
+        public ValidateExtensionSettingsRequest(TrustedUserHeader TrustedUserHeader, string Extension, ParameterValueOrFieldReference[] ParameterValues, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Extension = Extension;
@@ -7676,16 +7676,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ExtensionParameter[] ParameterErrors;
+        public ExtensionParameter[] ParameterErrors;
         
         public ValidateExtensionSettingsResponse()
         {
         }
         
-        public ValidateExtensionSettingsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ExtensionParameter[] ParameterErrors)
+        public ValidateExtensionSettingsResponse(ServerInfoHeader ServerInfoHeader, ExtensionParameter[] ParameterErrors)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ParameterErrors = ParameterErrors;
@@ -7700,7 +7700,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPathOrSiteURL;
@@ -7709,7 +7709,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListSubscriptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL)
+        public ListSubscriptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPathOrSiteURL = ItemPathOrSiteURL;
@@ -7724,16 +7724,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Subscription[] SubscriptionItems;
+        public Subscription[] SubscriptionItems;
         
         public ListSubscriptionsResponse()
         {
         }
         
-        public ListSubscriptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Subscription[] SubscriptionItems)
+        public ListSubscriptionsResponse(ServerInfoHeader ServerInfoHeader, Subscription[] SubscriptionItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
@@ -7748,7 +7748,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPathOrSiteURL;
@@ -7757,7 +7757,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListMySubscriptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL)
+        public ListMySubscriptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPathOrSiteURL)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPathOrSiteURL = ItemPathOrSiteURL;
@@ -7772,16 +7772,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Subscription[] SubscriptionItems;
+        public Subscription[] SubscriptionItems;
         
         public ListMySubscriptionsResponse()
         {
         }
         
-        public ListMySubscriptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Subscription[] SubscriptionItems)
+        public ListMySubscriptionsResponse(ServerInfoHeader ServerInfoHeader, Subscription[] SubscriptionItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
@@ -7796,7 +7796,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -7805,7 +7805,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListSubscriptionsUsingDataSourceRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource)
+        public ListSubscriptionsUsingDataSourceRequest(TrustedUserHeader TrustedUserHeader, string DataSource)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -7820,16 +7820,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Subscription[] SubscriptionItems;
+        public Subscription[] SubscriptionItems;
         
         public ListSubscriptionsUsingDataSourceResponse()
         {
         }
         
-        public ListSubscriptionsUsingDataSourceResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Subscription[] SubscriptionItems)
+        public ListSubscriptionsUsingDataSourceResponse(ServerInfoHeader ServerInfoHeader, Subscription[] SubscriptionItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.SubscriptionItems = SubscriptionItems;
@@ -7844,7 +7844,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SubscriptionID;
@@ -7856,7 +7856,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ChangeSubscriptionOwnerRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner)
+        public ChangeSubscriptionOwnerRequest(TrustedUserHeader TrustedUserHeader, string SubscriptionID, string NewOwner)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SubscriptionID = SubscriptionID;
@@ -7872,13 +7872,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public ChangeSubscriptionOwnerResponse()
         {
         }
         
-        public ChangeSubscriptionOwnerResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public ChangeSubscriptionOwnerResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -7892,7 +7892,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -7904,16 +7904,16 @@ namespace Rs.ReportService2010
         public bool Overwrite;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.DataSourceDefinition Definition;
+        public DataSourceDefinition Definition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public CreateDataSourceRequest()
         {
         }
         
-        public CreateDataSourceRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, Rs.ReportService2010.DataSourceDefinition Definition, Rs.ReportService2010.Property[] Properties)
+        public CreateDataSourceRequest(TrustedUserHeader TrustedUserHeader, string DataSource, string Parent, bool Overwrite, DataSourceDefinition Definition, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -7932,16 +7932,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem ItemInfo;
+        public CatalogItem ItemInfo;
         
         public CreateDataSourceResponse()
         {
         }
         
-        public CreateDataSourceResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem ItemInfo)
+        public CreateDataSourceResponse(ServerInfoHeader ServerInfoHeader, CatalogItem ItemInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
@@ -7955,19 +7955,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSource DataSource;
+        public DataSource DataSource;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.DataSetDefinition DataSet;
+        public DataSetDefinition DataSet;
         
         public PrepareQueryRequest()
         {
         }
         
-        public PrepareQueryRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, Rs.ReportService2010.DataSource DataSource, Rs.ReportService2010.DataSetDefinition DataSet)
+        public PrepareQueryRequest(TrustedUserHeader TrustedUserHeader, DataSource DataSource, DataSetDefinition DataSet)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -7982,10 +7982,10 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSetDefinition DataSettings;
+        public DataSetDefinition DataSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool Changed;
@@ -7997,7 +7997,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public PrepareQueryResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.DataSetDefinition DataSettings, bool Changed, string[] ParameterNames)
+        public PrepareQueryResponse(ServerInfoHeader ServerInfoHeader, DataSetDefinition DataSettings, bool Changed, string[] ParameterNames)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSettings = DataSettings;
@@ -8014,7 +8014,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8023,7 +8023,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public EnableDataSourceRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource)
+        public EnableDataSourceRequest(TrustedUserHeader TrustedUserHeader, string DataSource)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -8038,13 +8038,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public EnableDataSourceResponse()
         {
         }
         
-        public EnableDataSourceResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public EnableDataSourceResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8058,7 +8058,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8067,7 +8067,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DisableDataSourceRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource)
+        public DisableDataSourceRequest(TrustedUserHeader TrustedUserHeader, string DataSource)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -8082,13 +8082,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DisableDataSourceResponse()
         {
         }
         
-        public DisableDataSourceResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DisableDataSourceResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8102,19 +8102,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.DataSourceDefinition Definition;
+        public DataSourceDefinition Definition;
         
         public SetDataSourceContentsRequest()
         {
         }
         
-        public SetDataSourceContentsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource, Rs.ReportService2010.DataSourceDefinition Definition)
+        public SetDataSourceContentsRequest(TrustedUserHeader TrustedUserHeader, string DataSource, DataSourceDefinition Definition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -8130,13 +8130,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetDataSourceContentsResponse()
         {
         }
         
-        public SetDataSourceContentsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetDataSourceContentsResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8150,7 +8150,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8159,7 +8159,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetDataSourceContentsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource)
+        public GetDataSourceContentsRequest(TrustedUserHeader TrustedUserHeader, string DataSource)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -8174,16 +8174,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSourceDefinition Definition;
+        public DataSourceDefinition Definition;
         
         public GetDataSourceContentsResponse()
         {
         }
         
-        public GetDataSourceContentsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.DataSourceDefinition Definition)
+        public GetDataSourceContentsResponse(ServerInfoHeader ServerInfoHeader, DataSourceDefinition Definition)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
@@ -8198,13 +8198,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListDatabaseCredentialRetrievalOptionsRequest()
         {
         }
         
-        public ListDatabaseCredentialRetrievalOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListDatabaseCredentialRetrievalOptionsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -8218,7 +8218,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListDatabaseCredentialRetrievalOptionsResult;
@@ -8227,7 +8227,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListDatabaseCredentialRetrievalOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListDatabaseCredentialRetrievalOptionsResult)
+        public ListDatabaseCredentialRetrievalOptionsResponse(ServerInfoHeader ServerInfoHeader, string[] ListDatabaseCredentialRetrievalOptionsResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListDatabaseCredentialRetrievalOptionsResult = ListDatabaseCredentialRetrievalOptionsResult;
@@ -8242,19 +8242,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.DataSource[] DataSources;
+        public DataSource[] DataSources;
         
         public SetItemDataSourcesRequest()
         {
         }
         
-        public SetItemDataSourcesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.DataSource[] DataSources)
+        public SetItemDataSourcesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, DataSource[] DataSources)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8270,13 +8270,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemDataSourcesResponse()
         {
         }
         
-        public SetItemDataSourcesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemDataSourcesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8290,7 +8290,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8299,7 +8299,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemDataSourcesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemDataSourcesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8314,16 +8314,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSource[] DataSources;
+        public DataSource[] DataSources;
         
         public GetItemDataSourcesResponse()
         {
         }
         
-        public GetItemDataSourcesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.DataSource[] DataSources)
+        public GetItemDataSourcesResponse(ServerInfoHeader ServerInfoHeader, DataSource[] DataSources)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSources = DataSources;
@@ -8337,10 +8337,10 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSourceDefinition DataSourceDefinition;
+        public DataSourceDefinition DataSourceDefinition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public string UserName;
@@ -8352,7 +8352,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public TestConnectForDataSourceDefinitionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, Rs.ReportService2010.DataSourceDefinition DataSourceDefinition, string UserName, string Password)
+        public TestConnectForDataSourceDefinitionRequest(TrustedUserHeader TrustedUserHeader, DataSourceDefinition DataSourceDefinition, string UserName, string Password)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSourceDefinition = DataSourceDefinition;
@@ -8368,7 +8368,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool TestConnectForDataSourceDefinitionResult;
@@ -8380,7 +8380,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public TestConnectForDataSourceDefinitionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool TestConnectForDataSourceDefinitionResult, string ConnectError)
+        public TestConnectForDataSourceDefinitionResponse(ServerInfoHeader ServerInfoHeader, bool TestConnectForDataSourceDefinitionResult, string ConnectError)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TestConnectForDataSourceDefinitionResult = TestConnectForDataSourceDefinitionResult;
@@ -8395,7 +8395,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8413,7 +8413,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public TestConnectForItemDataSourceRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password)
+        public TestConnectForItemDataSourceRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string DataSourceName, string UserName, string Password)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8430,7 +8430,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool TestConnectForItemDataSourceResult;
@@ -8442,7 +8442,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public TestConnectForItemDataSourceResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool TestConnectForItemDataSourceResult, string ConnectError)
+        public TestConnectForItemDataSourceResponse(ServerInfoHeader ServerInfoHeader, bool TestConnectForItemDataSourceResult, string ConnectError)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TestConnectForItemDataSourceResult = TestConnectForItemDataSourceResult;
@@ -8458,7 +8458,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8473,7 +8473,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateRoleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs)
+        public CreateRoleRequest(TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -8490,13 +8490,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public CreateRoleResponse()
         {
         }
         
-        public CreateRoleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public CreateRoleResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8510,7 +8510,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8525,7 +8525,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public SetRolePropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs)
+        public SetRolePropertiesRequest(TrustedUserHeader TrustedUserHeader, string Name, string Description, string[] TaskIDs)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -8542,13 +8542,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetRolePropertiesResponse()
         {
         }
         
-        public SetRolePropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetRolePropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8561,7 +8561,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8573,7 +8573,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetRolePropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl)
+        public GetRolePropertiesRequest(TrustedUserHeader TrustedUserHeader, string Name, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -8588,7 +8588,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] TaskIDs;
@@ -8600,7 +8600,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetRolePropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] TaskIDs, string Description)
+        public GetRolePropertiesResponse(ServerInfoHeader ServerInfoHeader, string[] TaskIDs, string Description)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.TaskIDs = TaskIDs;
@@ -8616,7 +8616,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -8625,7 +8625,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteRoleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name)
+        public DeleteRoleRequest(TrustedUserHeader TrustedUserHeader, string Name)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -8640,13 +8640,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteRoleResponse()
         {
         }
         
-        public DeleteRoleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteRoleResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8660,7 +8660,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SecurityScope;
@@ -8672,7 +8672,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListRolesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl)
+        public ListRolesRequest(TrustedUserHeader TrustedUserHeader, string SecurityScope, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SecurityScope = SecurityScope;
@@ -8688,16 +8688,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Role[] Roles;
+        public Role[] Roles;
         
         public ListRolesResponse()
         {
         }
         
-        public ListRolesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Role[] Roles)
+        public ListRolesResponse(ServerInfoHeader ServerInfoHeader, Role[] Roles)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Roles = Roles;
@@ -8712,7 +8712,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SecurityScope;
@@ -8721,7 +8721,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListTasksRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SecurityScope)
+        public ListTasksRequest(TrustedUserHeader TrustedUserHeader, string SecurityScope)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SecurityScope = SecurityScope;
@@ -8736,16 +8736,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Task[] Tasks;
+        public Task[] Tasks;
         
         public ListTasksResponse()
         {
         }
         
-        public ListTasksResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Task[] Tasks)
+        public ListTasksResponse(ServerInfoHeader ServerInfoHeader, Task[] Tasks)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Tasks = Tasks;
@@ -8760,19 +8760,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         public SetPoliciesRequest()
         {
         }
         
-        public SetPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.Policy[] Policies)
+        public SetPoliciesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, Policy[] Policies)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8788,13 +8788,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetPoliciesResponse()
         {
         }
         
-        public SetPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetPoliciesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -8807,7 +8807,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8816,7 +8816,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetPoliciesRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8830,10 +8830,10 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool InheritParent;
@@ -8842,7 +8842,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Policy[] Policies, bool InheritParent)
+        public GetPoliciesResponse(ServerInfoHeader ServerInfoHeader, Policy[] Policies, bool InheritParent)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
@@ -8858,7 +8858,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -8867,7 +8867,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemDataSourcePromptsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemDataSourcePromptsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -8882,16 +8882,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.DataSourcePrompt[] DataSourcePrompts;
+        public DataSourcePrompt[] DataSourcePrompts;
         
         public GetItemDataSourcePromptsResponse()
         {
         }
         
-        public GetItemDataSourcePromptsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.DataSourcePrompt[] DataSourcePrompts)
+        public GetItemDataSourcePromptsResponse(ServerInfoHeader ServerInfoHeader, DataSourcePrompt[] DataSourcePrompts)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.DataSourcePrompts = DataSourcePrompts;
@@ -8905,7 +8905,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string DataSource;
@@ -8917,13 +8917,13 @@ namespace Rs.ReportService2010
         public string Parent;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public GenerateModelRequest()
         {
         }
         
-        public GenerateModelRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Rs.ReportService2010.Property[] Properties)
+        public GenerateModelRequest(TrustedUserHeader TrustedUserHeader, string DataSource, string Model, string Parent, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.DataSource = DataSource;
@@ -8940,19 +8940,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem ItemInfo;
+        public CatalogItem ItemInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public GenerateModelResponse()
         {
         }
         
-        public GenerateModelResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem ItemInfo, Rs.ReportService2010.Warning[] Warnings)
+        public GenerateModelResponse(ServerInfoHeader ServerInfoHeader, CatalogItem ItemInfo, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ItemInfo = ItemInfo;
@@ -8968,7 +8968,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -8980,7 +8980,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetModelItemPermissionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
+        public GetModelItemPermissionsRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -8996,7 +8996,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] Permissions;
@@ -9005,7 +9005,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetModelItemPermissionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] Permissions)
+        public GetModelItemPermissionsResponse(ServerInfoHeader ServerInfoHeader, string[] Permissions)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
@@ -9020,7 +9020,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9029,13 +9029,13 @@ namespace Rs.ReportService2010
         public string ModelItemID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         public SetModelItemPoliciesRequest()
         {
         }
         
-        public SetModelItemPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Rs.ReportService2010.Policy[] Policies)
+        public SetModelItemPoliciesRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Policy[] Policies)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9052,13 +9052,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetModelItemPoliciesResponse()
         {
         }
         
-        public SetModelItemPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetModelItemPoliciesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9071,7 +9071,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9083,7 +9083,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetModelItemPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
+        public GetModelItemPoliciesRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9098,10 +9098,10 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         public bool InheritParent;
@@ -9110,7 +9110,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetModelItemPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Policy[] Policies, bool InheritParent)
+        public GetModelItemPoliciesResponse(ServerInfoHeader ServerInfoHeader, Policy[] Policies, bool InheritParent)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
@@ -9126,7 +9126,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9138,7 +9138,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetUserModelRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string Perspective)
+        public GetUserModelRequest(TrustedUserHeader TrustedUserHeader, string Model, string Perspective)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9154,7 +9154,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -9164,7 +9164,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetUserModelResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, byte[] Definition)
+        public GetUserModelResponse(ServerInfoHeader ServerInfoHeader, byte[] Definition)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Definition = Definition;
@@ -9179,7 +9179,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9191,7 +9191,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public InheritModelItemParentSecurityRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
+        public InheritModelItemParentSecurityRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9207,13 +9207,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public InheritModelItemParentSecurityResponse()
         {
         }
         
-        public InheritModelItemParentSecurityResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public InheritModelItemParentSecurityResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9227,7 +9227,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9236,13 +9236,13 @@ namespace Rs.ReportService2010
         public string ModelItemID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.ModelDrillthroughReport[] Reports;
+        public ModelDrillthroughReport[] Reports;
         
         public SetModelDrillthroughReportsRequest()
         {
         }
         
-        public SetModelDrillthroughReportsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, Rs.ReportService2010.ModelDrillthroughReport[] Reports)
+        public SetModelDrillthroughReportsRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, ModelDrillthroughReport[] Reports)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9259,13 +9259,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetModelDrillthroughReportsResponse()
         {
         }
         
-        public SetModelDrillthroughReportsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetModelDrillthroughReportsResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9279,7 +9279,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9291,7 +9291,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListModelDrillthroughReportsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
+        public ListModelDrillthroughReportsRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9307,16 +9307,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ModelDrillthroughReport[] Reports;
+        public ModelDrillthroughReport[] Reports;
         
         public ListModelDrillthroughReportsResponse()
         {
         }
         
-        public ListModelDrillthroughReportsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ModelDrillthroughReport[] Reports)
+        public ListModelDrillthroughReportsResponse(ServerInfoHeader ServerInfoHeader, ModelDrillthroughReport[] Reports)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Reports = Reports;
@@ -9331,7 +9331,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9346,7 +9346,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListModelItemChildrenRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive)
+        public ListModelItemChildrenRequest(TrustedUserHeader TrustedUserHeader, string Model, string ModelItemID, bool Recursive)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9363,16 +9363,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ModelItem[] ModelItems;
+        public ModelItem[] ModelItems;
         
         public ListModelItemChildrenResponse()
         {
         }
         
-        public ListModelItemChildrenResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ModelItem[] ModelItems)
+        public ListModelItemChildrenResponse(ServerInfoHeader ServerInfoHeader, ModelItem[] ModelItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ModelItems = ModelItems;
@@ -9387,13 +9387,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListModelItemTypesRequest()
         {
         }
         
-        public ListModelItemTypesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListModelItemTypesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -9407,7 +9407,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListModelItemTypesResult;
@@ -9416,7 +9416,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListModelItemTypesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListModelItemTypesResult)
+        public ListModelItemTypesResponse(ServerInfoHeader ServerInfoHeader, string[] ListModelItemTypesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListModelItemTypesResult = ListModelItemTypesResult;
@@ -9431,7 +9431,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9440,7 +9440,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListModelPerspectivesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model)
+        public ListModelPerspectivesRequest(TrustedUserHeader TrustedUserHeader, string Model)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9455,16 +9455,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ModelCatalogItem[] ModelCatalogItems;
+        public ModelCatalogItem[] ModelCatalogItems;
         
         public ListModelPerspectivesResponse()
         {
         }
         
-        public ListModelPerspectivesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ModelCatalogItem[] ModelCatalogItems)
+        public ListModelPerspectivesResponse(ServerInfoHeader ServerInfoHeader, ModelCatalogItem[] ModelCatalogItems)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ModelCatalogItems = ModelCatalogItems;
@@ -9479,7 +9479,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9488,7 +9488,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public RegenerateModelRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model)
+        public RegenerateModelRequest(TrustedUserHeader TrustedUserHeader, string Model)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9503,16 +9503,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public RegenerateModelResponse()
         {
         }
         
-        public RegenerateModelResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Warning[] Warnings)
+        public RegenerateModelResponse(ServerInfoHeader ServerInfoHeader, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Warnings = Warnings;
@@ -9527,7 +9527,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Model;
@@ -9536,7 +9536,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public RemoveAllModelItemPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Model)
+        public RemoveAllModelItemPoliciesRequest(TrustedUserHeader TrustedUserHeader, string Model)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Model = Model;
@@ -9551,13 +9551,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public RemoveAllModelItemPoliciesResponse()
         {
         }
         
-        public RemoveAllModelItemPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public RemoveAllModelItemPoliciesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9571,13 +9571,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ScheduleDefinition ScheduleDefinition;
+        public ScheduleDefinition ScheduleDefinition;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         public string SiteUrl;
@@ -9586,7 +9586,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateScheduleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name, Rs.ReportService2010.ScheduleDefinition ScheduleDefinition, string SiteUrl)
+        public CreateScheduleRequest(TrustedUserHeader TrustedUserHeader, string Name, ScheduleDefinition ScheduleDefinition, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -9603,7 +9603,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9612,7 +9612,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateScheduleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string ScheduleID)
+        public CreateScheduleResponse(ServerInfoHeader ServerInfoHeader, string ScheduleID)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ScheduleID = ScheduleID;
@@ -9627,7 +9627,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9636,7 +9636,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteScheduleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ScheduleID)
+        public DeleteScheduleRequest(TrustedUserHeader TrustedUserHeader, string ScheduleID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
@@ -9651,13 +9651,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteScheduleResponse()
         {
         }
         
-        public DeleteScheduleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteScheduleResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9671,7 +9671,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string SiteUrl;
@@ -9680,7 +9680,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListSchedulesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string SiteUrl)
+        public ListSchedulesRequest(TrustedUserHeader TrustedUserHeader, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.SiteUrl = SiteUrl;
@@ -9695,16 +9695,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Schedule[] Schedules;
+        public Schedule[] Schedules;
         
         public ListSchedulesResponse()
         {
         }
         
-        public ListSchedulesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Schedule[] Schedules)
+        public ListSchedulesResponse(ServerInfoHeader ServerInfoHeader, Schedule[] Schedules)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Schedules = Schedules;
@@ -9719,7 +9719,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9728,7 +9728,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetSchedulePropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ScheduleID)
+        public GetSchedulePropertiesRequest(TrustedUserHeader TrustedUserHeader, string ScheduleID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
@@ -9743,16 +9743,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Schedule Schedule;
+        public Schedule Schedule;
         
         public GetSchedulePropertiesResponse()
         {
         }
         
-        public GetSchedulePropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Schedule Schedule)
+        public GetSchedulePropertiesResponse(ServerInfoHeader ServerInfoHeader, Schedule Schedule)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Schedule = Schedule;
@@ -9767,13 +9767,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListScheduleStatesRequest()
         {
         }
         
-        public ListScheduleStatesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListScheduleStatesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -9787,7 +9787,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListScheduleStatesResult;
@@ -9796,7 +9796,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListScheduleStatesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListScheduleStatesResult)
+        public ListScheduleStatesResponse(ServerInfoHeader ServerInfoHeader, string[] ListScheduleStatesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListScheduleStatesResult = ListScheduleStatesResult;
@@ -9811,7 +9811,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9820,7 +9820,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public PauseScheduleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ScheduleID)
+        public PauseScheduleRequest(TrustedUserHeader TrustedUserHeader, string ScheduleID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
@@ -9835,13 +9835,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public PauseScheduleResponse()
         {
         }
         
-        public PauseScheduleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public PauseScheduleResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9855,7 +9855,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9864,7 +9864,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ResumeScheduleRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ScheduleID)
+        public ResumeScheduleRequest(TrustedUserHeader TrustedUserHeader, string ScheduleID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
@@ -9879,13 +9879,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public ResumeScheduleResponse()
         {
         }
         
-        public ResumeScheduleResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public ResumeScheduleResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9899,7 +9899,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Name;
@@ -9908,13 +9908,13 @@ namespace Rs.ReportService2010
         public string ScheduleID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.ScheduleDefinition ScheduleDefinition;
+        public ScheduleDefinition ScheduleDefinition;
         
         public SetSchedulePropertiesRequest()
         {
         }
         
-        public SetSchedulePropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, Rs.ReportService2010.ScheduleDefinition ScheduleDefinition)
+        public SetSchedulePropertiesRequest(TrustedUserHeader TrustedUserHeader, string Name, string ScheduleID, ScheduleDefinition ScheduleDefinition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Name = Name;
@@ -9931,13 +9931,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetSchedulePropertiesResponse()
         {
         }
         
-        public SetSchedulePropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetSchedulePropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -9951,7 +9951,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ScheduleID;
@@ -9960,7 +9960,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListScheduledItemsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ScheduleID)
+        public ListScheduledItemsRequest(TrustedUserHeader TrustedUserHeader, string ScheduleID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScheduleID = ScheduleID;
@@ -9975,16 +9975,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CatalogItem[] Items;
+        public CatalogItem[] Items;
         
         public ListScheduledItemsResponse()
         {
         }
         
-        public ListScheduledItemsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CatalogItem[] Items)
+        public ListScheduledItemsResponse(ServerInfoHeader ServerInfoHeader, CatalogItem[] Items)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Items = Items;
@@ -9999,19 +9999,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.ItemParameter[] Parameters;
+        public ItemParameter[] Parameters;
         
         public SetItemParametersRequest()
         {
         }
         
-        public SetItemParametersRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, Rs.ReportService2010.ItemParameter[] Parameters)
+        public SetItemParametersRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, ItemParameter[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10027,13 +10027,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemParametersResponse()
         {
         }
         
-        public SetItemParametersResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemParametersResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10047,7 +10047,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10059,16 +10059,16 @@ namespace Rs.ReportService2010
         public bool ForRendering;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.ParameterValue[] Values;
+        public ParameterValue[] Values;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Rs.ReportService2010.DataSourceCredentials[] Credentials;
+        public DataSourceCredentials[] Credentials;
         
         public GetItemParametersRequest()
         {
         }
         
-        public GetItemParametersRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, Rs.ReportService2010.ParameterValue[] Values, Rs.ReportService2010.DataSourceCredentials[] Credentials)
+        public GetItemParametersRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID, bool ForRendering, ParameterValue[] Values, DataSourceCredentials[] Credentials)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10087,16 +10087,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.ItemParameter[] Parameters;
+        public ItemParameter[] Parameters;
         
         public GetItemParametersResponse()
         {
         }
         
-        public GetItemParametersResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.ItemParameter[] Parameters)
+        public GetItemParametersResponse(ServerInfoHeader ServerInfoHeader, ItemParameter[] Parameters)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Parameters = Parameters;
@@ -10111,13 +10111,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListParameterTypesRequest()
         {
         }
         
-        public ListParameterTypesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListParameterTypesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -10131,7 +10131,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListParameterTypesResult;
@@ -10140,7 +10140,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListParameterTypesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListParameterTypesResult)
+        public ListParameterTypesResponse(ServerInfoHeader ServerInfoHeader, string[] ListParameterTypesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParameterTypesResult = ListParameterTypesResult;
@@ -10155,13 +10155,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListParameterStatesRequest()
         {
         }
         
-        public ListParameterStatesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListParameterStatesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -10175,7 +10175,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListParameterStatesResult;
@@ -10184,7 +10184,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListParameterStatesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListParameterStatesResult)
+        public ListParameterStatesResponse(ServerInfoHeader ServerInfoHeader, string[] ListParameterStatesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListParameterStatesResult = ListParameterStatesResult;
@@ -10198,7 +10198,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Report;
@@ -10214,7 +10214,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateReportEditSessionRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition)
+        public CreateReportEditSessionRequest(TrustedUserHeader TrustedUserHeader, string Report, string Parent, byte[] Definition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Report = Report;
@@ -10230,19 +10230,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string EditSessionID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public CreateReportEditSessionResponse()
         {
         }
         
-        public CreateReportEditSessionResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string EditSessionID, Rs.ReportService2010.Warning[] Warnings)
+        public CreateReportEditSessionResponse(ServerInfoHeader ServerInfoHeader, string EditSessionID, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.EditSessionID = EditSessionID;
@@ -10258,7 +10258,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10270,13 +10270,13 @@ namespace Rs.ReportService2010
         public string Link;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public CreateLinkedItemRequest()
         {
         }
         
-        public CreateLinkedItemRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Rs.ReportService2010.Property[] Properties)
+        public CreateLinkedItemRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string Parent, string Link, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10294,13 +10294,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public CreateLinkedItemResponse()
         {
         }
         
-        public CreateLinkedItemResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public CreateLinkedItemResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10314,7 +10314,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10326,7 +10326,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public SetItemLinkRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string Link)
+        public SetItemLinkRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string Link)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10342,13 +10342,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemLinkResponse()
         {
         }
         
-        public SetItemLinkResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemLinkResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10362,7 +10362,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10371,7 +10371,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemLinkRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemLinkRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10386,7 +10386,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Link;
@@ -10395,7 +10395,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemLinkResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string Link)
+        public GetItemLinkResponse(ServerInfoHeader ServerInfoHeader, string Link)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Link = Link;
@@ -10410,13 +10410,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListExecutionSettingsRequest()
         {
         }
         
-        public ListExecutionSettingsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListExecutionSettingsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -10430,7 +10430,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListExecutionSettingsResult;
@@ -10439,7 +10439,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListExecutionSettingsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListExecutionSettingsResult)
+        public ListExecutionSettingsResponse(ServerInfoHeader ServerInfoHeader, string[] ListExecutionSettingsResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListExecutionSettingsResult = ListExecutionSettingsResult;
@@ -10454,7 +10454,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10466,13 +10466,13 @@ namespace Rs.ReportService2010
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Rs.ReportService2010.ScheduleDefinitionOrReference Item;
+        public ScheduleDefinitionOrReference Item;
         
         public SetExecutionOptionsRequest()
         {
         }
         
-        public SetExecutionOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, Rs.ReportService2010.ScheduleDefinitionOrReference Item)
+        public SetExecutionOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string ExecutionSetting, ScheduleDefinitionOrReference Item)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10489,13 +10489,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetExecutionOptionsResponse()
         {
         }
         
-        public SetExecutionOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetExecutionOptionsResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10508,7 +10508,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10517,7 +10517,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetExecutionOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetExecutionOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10531,7 +10531,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ExecutionSetting;
@@ -10540,13 +10540,13 @@ namespace Rs.ReportService2010
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Rs.ReportService2010.ScheduleDefinitionOrReference Item;
+        public ScheduleDefinitionOrReference Item;
         
         public GetExecutionOptionsResponse()
         {
         }
         
-        public GetExecutionOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string ExecutionSetting, Rs.ReportService2010.ScheduleDefinitionOrReference Item)
+        public GetExecutionOptionsResponse(ServerInfoHeader ServerInfoHeader, string ExecutionSetting, ScheduleDefinitionOrReference Item)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ExecutionSetting = ExecutionSetting;
@@ -10562,7 +10562,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10571,7 +10571,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public UpdateItemExecutionSnapshotRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public UpdateItemExecutionSnapshotRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10586,13 +10586,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public UpdateItemExecutionSnapshotResponse()
         {
         }
         
-        public UpdateItemExecutionSnapshotResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public UpdateItemExecutionSnapshotResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10606,7 +10606,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10617,13 +10617,13 @@ namespace Rs.ReportService2010
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleExpiration", typeof(ScheduleExpiration))]
         [System.Xml.Serialization.XmlElementAttribute("TimeExpiration", typeof(TimeExpiration))]
-        public Rs.ReportService2010.ExpirationDefinition Item;
+        public ExpirationDefinition Item;
         
         public SetCacheOptionsRequest()
         {
         }
         
-        public SetCacheOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, Rs.ReportService2010.ExpirationDefinition Item)
+        public SetCacheOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, bool CacheItem, ExpirationDefinition Item)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10640,13 +10640,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetCacheOptionsResponse()
         {
         }
         
-        public SetCacheOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetCacheOptionsResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10659,7 +10659,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10668,7 +10668,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetCacheOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetCacheOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10682,7 +10682,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool CacheItem;
@@ -10690,13 +10690,13 @@ namespace Rs.ReportService2010
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleExpiration", typeof(ScheduleExpiration))]
         [System.Xml.Serialization.XmlElementAttribute("TimeExpiration", typeof(TimeExpiration))]
-        public Rs.ReportService2010.ExpirationDefinition Item;
+        public ExpirationDefinition Item;
         
         public GetCacheOptionsResponse()
         {
         }
         
-        public GetCacheOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool CacheItem, Rs.ReportService2010.ExpirationDefinition Item)
+        public GetCacheOptionsResponse(ServerInfoHeader ServerInfoHeader, bool CacheItem, ExpirationDefinition Item)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheItem = CacheItem;
@@ -10712,7 +10712,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10721,7 +10721,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public FlushCacheRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public FlushCacheRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10736,13 +10736,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public FlushCacheResponse()
         {
         }
         
-        public FlushCacheResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public FlushCacheResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10755,7 +10755,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10764,7 +10764,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateItemHistorySnapshotRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public CreateItemHistorySnapshotRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10778,19 +10778,19 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string HistoryID;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=1)]
-        public Rs.ReportService2010.Warning[] Warnings;
+        public Warning[] Warnings;
         
         public CreateItemHistorySnapshotResponse()
         {
         }
         
-        public CreateItemHistorySnapshotResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string HistoryID, Rs.ReportService2010.Warning[] Warnings)
+        public CreateItemHistorySnapshotResponse(ServerInfoHeader ServerInfoHeader, string HistoryID, Warning[] Warnings)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.HistoryID = HistoryID;
@@ -10806,7 +10806,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10818,7 +10818,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteItemHistorySnapshotRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID)
+        public DeleteItemHistorySnapshotRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string HistoryID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10834,13 +10834,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteItemHistorySnapshotResponse()
         {
         }
         
-        public DeleteItemHistorySnapshotResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteItemHistorySnapshotResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10854,7 +10854,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10869,7 +10869,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public SetItemHistoryLimitRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit)
+        public SetItemHistoryLimitRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, bool UseSystem, int HistoryLimit)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10886,13 +10886,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemHistoryLimitResponse()
         {
         }
         
-        public SetItemHistoryLimitResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemHistoryLimitResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -10905,7 +10905,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10914,7 +10914,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemHistoryLimitRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemHistoryLimitRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10928,7 +10928,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public int HistoryLimit;
@@ -10943,7 +10943,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemHistoryLimitResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, int HistoryLimit, bool IsSystem, int SystemLimit)
+        public GetItemHistoryLimitResponse(ServerInfoHeader ServerInfoHeader, int HistoryLimit, bool IsSystem, int SystemLimit)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.HistoryLimit = HistoryLimit;
@@ -10960,7 +10960,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -10975,13 +10975,13 @@ namespace Rs.ReportService2010
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Rs.ReportService2010.ScheduleDefinitionOrReference Item;
+        public ScheduleDefinitionOrReference Item;
         
         public SetItemHistoryOptionsRequest()
         {
         }
         
-        public SetItemHistoryOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Rs.ReportService2010.ScheduleDefinitionOrReference Item)
+        public SetItemHistoryOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, ScheduleDefinitionOrReference Item)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -10999,13 +10999,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetItemHistoryOptionsResponse()
         {
         }
         
-        public SetItemHistoryOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetItemHistoryOptionsResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11018,7 +11018,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -11027,7 +11027,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetItemHistoryOptionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetItemHistoryOptionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -11041,7 +11041,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool EnableManualSnapshotCreation;
@@ -11053,13 +11053,13 @@ namespace Rs.ReportService2010
         [System.Xml.Serialization.XmlElementAttribute("NoSchedule", typeof(NoSchedule))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleDefinition", typeof(ScheduleDefinition))]
         [System.Xml.Serialization.XmlElementAttribute("ScheduleReference", typeof(ScheduleReference))]
-        public Rs.ReportService2010.ScheduleDefinitionOrReference Item;
+        public ScheduleDefinitionOrReference Item;
         
         public GetItemHistoryOptionsResponse()
         {
         }
         
-        public GetItemHistoryOptionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, Rs.ReportService2010.ScheduleDefinitionOrReference Item)
+        public GetItemHistoryOptionsResponse(ServerInfoHeader ServerInfoHeader, bool EnableManualSnapshotCreation, bool KeepExecutionSnapshots, ScheduleDefinitionOrReference Item)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.EnableManualSnapshotCreation = EnableManualSnapshotCreation;
@@ -11076,7 +11076,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool ScaleOut;
@@ -11085,7 +11085,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetReportServerConfigInfoRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, bool ScaleOut)
+        public GetReportServerConfigInfoRequest(TrustedUserHeader TrustedUserHeader, bool ScaleOut)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ScaleOut = ScaleOut;
@@ -11100,7 +11100,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ServerConfigInfo;
@@ -11109,7 +11109,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetReportServerConfigInfoResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string ServerConfigInfo)
+        public GetReportServerConfigInfoResponse(ServerInfoHeader ServerInfoHeader, string ServerConfigInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ServerConfigInfo = ServerConfigInfo;
@@ -11124,13 +11124,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public IsSSLRequiredRequest()
         {
         }
         
-        public IsSSLRequiredRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public IsSSLRequiredRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11144,7 +11144,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool IsSSLRequiredResult;
@@ -11153,7 +11153,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public IsSSLRequiredResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool IsSSLRequiredResult)
+        public IsSSLRequiredResponse(ServerInfoHeader ServerInfoHeader, bool IsSSLRequiredResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.IsSSLRequiredResult = IsSSLRequiredResult;
@@ -11168,16 +11168,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public SetSystemPropertiesRequest()
         {
         }
         
-        public SetSystemPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, Rs.ReportService2010.Property[] Properties)
+        public SetSystemPropertiesRequest(TrustedUserHeader TrustedUserHeader, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Properties = Properties;
@@ -11192,13 +11192,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetSystemPropertiesResponse()
         {
         }
         
-        public SetSystemPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetSystemPropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11212,16 +11212,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Property[] Properties;
+        public Property[] Properties;
         
         public GetSystemPropertiesRequest()
         {
         }
         
-        public GetSystemPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, Rs.ReportService2010.Property[] Properties)
+        public GetSystemPropertiesRequest(TrustedUserHeader TrustedUserHeader, Property[] Properties)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Properties = Properties;
@@ -11236,16 +11236,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Property[] Values;
+        public Property[] Values;
         
         public GetSystemPropertiesResponse()
         {
         }
         
-        public GetSystemPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Property[] Values)
+        public GetSystemPropertiesResponse(ServerInfoHeader ServerInfoHeader, Property[] Values)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Values = Values;
@@ -11260,16 +11260,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         public SetSystemPoliciesRequest()
         {
         }
         
-        public SetSystemPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, Rs.ReportService2010.Policy[] Policies)
+        public SetSystemPoliciesRequest(TrustedUserHeader TrustedUserHeader, Policy[] Policies)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Policies = Policies;
@@ -11284,13 +11284,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetSystemPoliciesResponse()
         {
         }
         
-        public SetSystemPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetSystemPoliciesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11304,13 +11304,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public GetSystemPoliciesRequest()
         {
         }
         
-        public GetSystemPoliciesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public GetSystemPoliciesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11324,16 +11324,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Policy[] Policies;
+        public Policy[] Policies;
         
         public GetSystemPoliciesResponse()
         {
         }
         
-        public GetSystemPoliciesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Policy[] Policies)
+        public GetSystemPoliciesResponse(ServerInfoHeader ServerInfoHeader, Policy[] Policies)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Policies = Policies;
@@ -11348,7 +11348,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ExtensionType;
@@ -11357,7 +11357,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListExtensionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ExtensionType)
+        public ListExtensionsRequest(TrustedUserHeader TrustedUserHeader, string ExtensionType)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ExtensionType = ExtensionType;
@@ -11372,16 +11372,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Extension[] Extensions;
+        public Extension[] Extensions;
         
         public ListExtensionsResponse()
         {
         }
         
-        public ListExtensionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Extension[] Extensions)
+        public ListExtensionsResponse(ServerInfoHeader ServerInfoHeader, Extension[] Extensions)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Extensions = Extensions;
@@ -11396,13 +11396,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListExtensionTypesRequest()
         {
         }
         
-        public ListExtensionTypesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListExtensionTypesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11416,7 +11416,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListExtensionTypesResult;
@@ -11425,7 +11425,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListExtensionTypesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListExtensionTypesResult)
+        public ListExtensionTypesResponse(ServerInfoHeader ServerInfoHeader, string[] ListExtensionTypesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListExtensionTypesResult = ListExtensionTypesResult;
@@ -11440,13 +11440,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListEventsRequest()
         {
         }
         
-        public ListEventsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListEventsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11460,16 +11460,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Event[] Events;
+        public Event[] Events;
         
         public ListEventsResponse()
         {
         }
         
-        public ListEventsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Event[] Events)
+        public ListEventsResponse(ServerInfoHeader ServerInfoHeader, Event[] Events)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Events = Events;
@@ -11484,7 +11484,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string EventType;
@@ -11499,7 +11499,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public FireEventRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl)
+        public FireEventRequest(TrustedUserHeader TrustedUserHeader, string EventType, string EventData, string SiteUrl)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.EventType = EventType;
@@ -11516,13 +11516,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public FireEventResponse()
         {
         }
         
-        public FireEventResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public FireEventResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11536,13 +11536,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListJobsRequest()
         {
         }
         
-        public ListJobsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListJobsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11556,16 +11556,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.Job[] Jobs;
+        public Job[] Jobs;
         
         public ListJobsResponse()
         {
         }
         
-        public ListJobsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.Job[] Jobs)
+        public ListJobsResponse(ServerInfoHeader ServerInfoHeader, Job[] Jobs)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Jobs = Jobs;
@@ -11580,13 +11580,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListJobTypesRequest()
         {
         }
         
-        public ListJobTypesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListJobTypesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11600,7 +11600,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobTypesResult;
@@ -11609,7 +11609,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListJobTypesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListJobTypesResult)
+        public ListJobTypesResponse(ServerInfoHeader ServerInfoHeader, string[] ListJobTypesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobTypesResult = ListJobTypesResult;
@@ -11624,13 +11624,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListJobActionsRequest()
         {
         }
         
-        public ListJobActionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListJobActionsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11644,7 +11644,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobActionsResult;
@@ -11653,7 +11653,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListJobActionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListJobActionsResult)
+        public ListJobActionsResponse(ServerInfoHeader ServerInfoHeader, string[] ListJobActionsResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobActionsResult = ListJobActionsResult;
@@ -11668,13 +11668,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListJobStatesRequest()
         {
         }
         
-        public ListJobStatesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListJobStatesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -11688,7 +11688,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListJobStatesResult;
@@ -11697,7 +11697,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListJobStatesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListJobStatesResult)
+        public ListJobStatesResponse(ServerInfoHeader ServerInfoHeader, string[] ListJobStatesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListJobStatesResult = ListJobStatesResult;
@@ -11712,7 +11712,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string JobID;
@@ -11721,7 +11721,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CancelJobRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string JobID)
+        public CancelJobRequest(TrustedUserHeader TrustedUserHeader, string JobID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.JobID = JobID;
@@ -11736,7 +11736,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public bool CancelJobResult;
@@ -11745,7 +11745,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CancelJobResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, bool CancelJobResult)
+        public CancelJobResponse(ServerInfoHeader ServerInfoHeader, bool CancelJobResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CancelJobResult = CancelJobResult;
@@ -11760,7 +11760,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -11775,13 +11775,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public CreateCacheRefreshPlanRequest()
         {
         }
         
-        public CreateCacheRefreshPlanRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public CreateCacheRefreshPlanRequest(TrustedUserHeader TrustedUserHeader, string ItemPath, string Description, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -11800,7 +11800,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11809,7 +11809,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public CreateCacheRefreshPlanResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string CacheRefreshPlanID)
+        public CreateCacheRefreshPlanResponse(ServerInfoHeader ServerInfoHeader, string CacheRefreshPlanID)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
@@ -11824,7 +11824,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11839,13 +11839,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=4)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public SetCacheRefreshPlanPropertiesRequest()
         {
         }
         
-        public SetCacheRefreshPlanPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public SetCacheRefreshPlanPropertiesRequest(TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID, string Description, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
@@ -11864,13 +11864,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public SetCacheRefreshPlanPropertiesResponse()
         {
         }
         
-        public SetCacheRefreshPlanPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public SetCacheRefreshPlanPropertiesResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11883,7 +11883,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11892,7 +11892,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetCacheRefreshPlanPropertiesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID)
+        public GetCacheRefreshPlanPropertiesRequest(TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
@@ -11906,7 +11906,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string Description;
@@ -11915,7 +11915,7 @@ namespace Rs.ReportService2010
         public string LastRunStatus;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=2)]
-        public Rs.ReportService2010.CacheRefreshPlanState State;
+        public CacheRefreshPlanState State;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=3)]
         public string EventType;
@@ -11924,13 +11924,13 @@ namespace Rs.ReportService2010
         public string MatchData;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=5)]
-        public Rs.ReportService2010.ParameterValue[] Parameters;
+        public ParameterValue[] Parameters;
         
         public GetCacheRefreshPlanPropertiesResponse()
         {
         }
         
-        public GetCacheRefreshPlanPropertiesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string Description, string LastRunStatus, Rs.ReportService2010.CacheRefreshPlanState State, string EventType, string MatchData, Rs.ReportService2010.ParameterValue[] Parameters)
+        public GetCacheRefreshPlanPropertiesResponse(ServerInfoHeader ServerInfoHeader, string Description, string LastRunStatus, CacheRefreshPlanState State, string EventType, string MatchData, ParameterValue[] Parameters)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Description = Description;
@@ -11950,7 +11950,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string CacheRefreshPlanID;
@@ -11959,7 +11959,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public DeleteCacheRefreshPlanRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID)
+        public DeleteCacheRefreshPlanRequest(TrustedUserHeader TrustedUserHeader, string CacheRefreshPlanID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.CacheRefreshPlanID = CacheRefreshPlanID;
@@ -11974,13 +11974,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public DeleteCacheRefreshPlanResponse()
         {
         }
         
-        public DeleteCacheRefreshPlanResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public DeleteCacheRefreshPlanResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -11994,7 +11994,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -12003,7 +12003,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListCacheRefreshPlansRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public ListCacheRefreshPlansRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -12018,16 +12018,16 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
-        public Rs.ReportService2010.CacheRefreshPlan[] CacheRefreshPlans;
+        public CacheRefreshPlan[] CacheRefreshPlans;
         
         public ListCacheRefreshPlansResponse()
         {
         }
         
-        public ListCacheRefreshPlansResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, Rs.ReportService2010.CacheRefreshPlan[] CacheRefreshPlans)
+        public ListCacheRefreshPlansResponse(ServerInfoHeader ServerInfoHeader, CacheRefreshPlan[] CacheRefreshPlans)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.CacheRefreshPlans = CacheRefreshPlans;
@@ -12042,7 +12042,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string userName;
@@ -12057,7 +12057,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public LogonUserRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string userName, string password, string authority)
+        public LogonUserRequest(TrustedUserHeader TrustedUserHeader, string userName, string password, string authority)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.userName = userName;
@@ -12074,13 +12074,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public LogonUserResponse()
         {
         }
         
-        public LogonUserResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public LogonUserResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -12094,13 +12094,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public LogoffRequest()
         {
         }
         
-        public LogoffRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public LogoffRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -12114,13 +12114,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         public LogoffResponse()
         {
         }
         
-        public LogoffResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader)
+        public LogoffResponse(ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -12134,7 +12134,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string ItemPath;
@@ -12143,7 +12143,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetPermissionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader, string ItemPath)
+        public GetPermissionsRequest(TrustedUserHeader TrustedUserHeader, string ItemPath)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.ItemPath = ItemPath;
@@ -12158,7 +12158,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute("Operation")]
@@ -12168,7 +12168,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetPermissionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] Permissions)
+        public GetPermissionsResponse(ServerInfoHeader ServerInfoHeader, string[] Permissions)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
@@ -12183,13 +12183,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public GetSystemPermissionsRequest()
         {
         }
         
-        public GetSystemPermissionsRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public GetSystemPermissionsRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -12203,7 +12203,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute("Operation")]
@@ -12213,7 +12213,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public GetSystemPermissionsResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] Permissions)
+        public GetSystemPermissionsResponse(ServerInfoHeader ServerInfoHeader, string[] Permissions)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Permissions = Permissions;
@@ -12228,13 +12228,13 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.TrustedUserHeader TrustedUserHeader;
+        public TrustedUserHeader TrustedUserHeader;
         
         public ListSecurityScopesRequest()
         {
         }
         
-        public ListSecurityScopesRequest(Rs.ReportService2010.TrustedUserHeader TrustedUserHeader)
+        public ListSecurityScopesRequest(TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -12248,7 +12248,7 @@ namespace Rs.ReportService2010
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer")]
-        public Rs.ReportService2010.ServerInfoHeader ServerInfoHeader;
+        public ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/reporting/2010/03/01/ReportServer", Order=0)]
         public string[] ListSecurityScopesResult;
@@ -12257,7 +12257,7 @@ namespace Rs.ReportService2010
         {
         }
         
-        public ListSecurityScopesResponse(Rs.ReportService2010.ServerInfoHeader ServerInfoHeader, string[] ListSecurityScopesResult)
+        public ListSecurityScopesResponse(ServerInfoHeader ServerInfoHeader, string[] ListSecurityScopesResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListSecurityScopesResult = ListSecurityScopesResult;

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
+using CYC.RsDeploy.Console.Constants;
+using CYC.RsDeploy.Console.ReportService2010;
+using CYC.RsDeploy.Console.Services;
 using NLog;
-using Rs.Constants;
-using Rs.ReportService2010;
-using Rs.Services;
 
-namespace Rs.Verbs
+namespace CYC.RsDeploy.Console.Verbs
 {
     public abstract class UploadVerbBase
     {

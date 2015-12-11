@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Linq;
+using CYC.RsDeploy.Console.Commands;
 using NLog;
-using Rs.Commands;
 
-namespace Rs.Verbs
+namespace CYC.RsDeploy.Console.Verbs
 {
     public class UploadFolderVerb : UploadVerbBase
     {

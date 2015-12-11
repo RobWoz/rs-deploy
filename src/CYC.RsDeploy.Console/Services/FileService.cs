@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Rs.Constants;
+using CYC.RsDeploy.Console.Constants;
 
-namespace Rs.Services
+namespace CYC.RsDeploy.Console.Services
 {
     public class FileService : IFileService
     {

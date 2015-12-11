@@ -6,11 +6,11 @@ using CommandLine;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("rs.exe")]
+[assembly: AssemblyTitle("rsdeploy.exe")]
 [assembly: AssemblyDescription("Reporting Services report upload tool.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rs.exe")]
+[assembly: AssemblyProduct("rsdeploy.exe")]
 [assembly: AssemblyCopyright("Copyright © CYC 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -38,6 +38,6 @@ using CommandLine;
 [assembly: AssemblyInformationalVersionAttribute("1.0.2")]
 
 [assembly: AssemblyUsage(
-    @"Usage: rs upload-file -f 'C:\folder.sub-folder.report.rdl' -d '/test' -s server",
-    @"       rs upload-folder -f 'C:\folder' -d '/test' -s server",
-    @"       rs create-datasources -f 'con-str.config' -d '/test' -s server")]
+    @"Usage: rsdeploy upload-file -f 'C:\folder.sub-folder.report.rdl' -d '/test' -s server",
+    @"       rsdeploy upload-folder -f 'C:\folder' -d '/test' -s server",
+    @"       rsdeploy create-datasources -f 'con-str.config' -d '/test' -s server")]

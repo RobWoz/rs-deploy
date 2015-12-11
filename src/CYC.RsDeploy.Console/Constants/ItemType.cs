@@ -1,5 +1,5 @@
 ﻿
-namespace Rs.Constants
+namespace CYC.RsDeploy.Console.Constants
 {
     public static class ItemType
     {

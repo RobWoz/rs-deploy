@@ -1,9 +1,9 @@
 ﻿using System;
+using CYC.RsDeploy.Console.Commands;
+using CYC.RsDeploy.Console.Verbs;
 using NLog;
-using Rs.Commands;
-using Rs.Verbs;
 
-namespace Rs
+namespace CYC.RsDeploy.Console
 {
     class Program
     {

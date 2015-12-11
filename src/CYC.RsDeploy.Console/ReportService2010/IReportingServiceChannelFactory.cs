@@ -1,4 +1,4 @@
-﻿namespace Rs.ReportService2010
+﻿namespace CYC.RsDeploy.Console.ReportService2010
 {
     public interface IReportingServiceChannelFactory
     {

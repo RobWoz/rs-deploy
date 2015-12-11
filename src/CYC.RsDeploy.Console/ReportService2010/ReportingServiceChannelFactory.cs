@@ -2,7 +2,7 @@
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 
-namespace Rs.ReportService2010
+namespace CYC.RsDeploy.Console.ReportService2010
 {
     public class ReportingServiceChannelFactory : IReportingServiceChannelFactory
     {

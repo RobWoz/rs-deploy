@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace Rs.Commands
+namespace CYC.RsDeploy.Console.Commands
 {
     public class UploadFolderSubOptions
     {

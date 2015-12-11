@@ -1,7 +1,7 @@
 ﻿using CommandLine;
 using CommandLine.Text;
 
-namespace Rs.Commands
+namespace CYC.RsDeploy.Console.Commands
 {
     public class Options
     {

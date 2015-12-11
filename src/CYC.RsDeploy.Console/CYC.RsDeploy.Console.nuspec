@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>RS</id>
+    <id>RSDeploy</id>
     <version>1.0.2</version>
-    <title>RS.exe</title>
+    <title>RSDeploy</title>
     <authors>CYC</authors>
     <owners>CYC</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

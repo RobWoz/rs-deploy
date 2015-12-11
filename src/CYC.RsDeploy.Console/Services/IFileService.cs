@@ -1,4 +1,4 @@
-﻿namespace Rs.Services
+﻿namespace CYC.RsDeploy.Console.Services
 {
     public interface IFileService
     {

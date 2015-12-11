@@ -1,11 +1,11 @@
 ﻿using CommandLine;
 
-namespace Rs.Commands
+namespace CYC.RsDeploy.Console.Commands
 {
-    public class UploadFileSubOptions
+    public class CreateDatasourcesSubOptions
     {
-        [Option('f', "file", Required = true, HelpText = "The file to be upload.")]
-        public string File { get; set; }
+        [Option('f', "config", Required = true, HelpText = "The config file containing connection strings to create as data sources")]
+        public string ConfigFile { get; set; }
 
         [Option('d', "destination", Required = true, HelpText = "The destination folder on the report server to upload to.")]
         public string DestinationFolder { get; set; }

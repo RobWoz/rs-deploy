@@ -2,11 +2,11 @@
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
+using CYC.RsDeploy.Console.Commands;
+using CYC.RsDeploy.Console.ReportService2010;
 using NLog;
-using Rs.Commands;
-using Rs.ReportService2010;
 
-namespace Rs.Verbs
+namespace CYC.RsDeploy.Console.Verbs
 {
     public class CreateDatasourcesVerb
     {
