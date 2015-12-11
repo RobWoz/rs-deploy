@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using System.Linq;
-using CYC.Logging.Interface;
+using NLog;
 using Rs.Commands;
 
 namespace Rs.Verbs
@@ -9,7 +9,7 @@ namespace Rs.Verbs
     {
         private readonly UploadFolderSubOptions options;
 
-        public UploadFolderVerb(UploadFolderSubOptions options, ILogger logger) : base (logger, options.Server)
+        public UploadFolderVerb(UploadFolderSubOptions options, Logger logger) : base (logger, options.Server)
         {
             this.options = options;
         }

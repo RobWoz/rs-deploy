@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using CYC.Logging.Interface;
+using NLog;
 using Rs.Constants;
 using Rs.ReportService2010;
 using Rs.Services;
@@ -11,10 +11,10 @@ namespace Rs.Verbs
     {
         protected IFileService fileService;
         protected IReportingServiceChannelFactory channelFactory;
-        protected ILogger logger;
+        protected Logger logger;
         protected IReportingService2010 channel;
 
-        protected UploadVerbBase(ILogger logger, string server)
+        protected UploadVerbBase(Logger logger, string server)
         {
             this.fileService = new FileService();
             this.channelFactory = new ReportingServiceChannelFactory();

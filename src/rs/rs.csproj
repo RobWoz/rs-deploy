@@ -35,12 +35,6 @@
     <Reference Include="CommandLine">
       <HintPath>..\..\packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
     </Reference>
-    <Reference Include="CYC.Logging.Interface">
-      <HintPath>..\..\packages\CYC.Logging.Interface.1.0.1\lib\net45\CYC.Logging.Interface.dll</HintPath>
-    </Reference>
-    <Reference Include="CYC.Logging.NLog">
-      <HintPath>..\..\packages\CYC.Logging.NLog.1.0.1\lib\net45\CYC.Logging.NLog.dll</HintPath>
-    </Reference>
     <Reference Include="NLog">
       <HintPath>..\..\packages\NLog.3.0.0.0\lib\net45\NLog.dll</HintPath>
     </Reference>
@@ -75,7 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

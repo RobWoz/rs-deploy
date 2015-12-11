@@ -1,6 +1,5 @@
 ﻿using System;
-using CYC.Logging.Interface;
-using CYC.Logging.NLog;
+using NLog;
 using Rs.Commands;
 using Rs.Verbs;
 
@@ -8,7 +7,7 @@ namespace Rs
 {
     class Program
     {
-        private static ILogger logger = new Logger("rs");
+        private static Logger logger = LogManager.GetLogger("rs");
 
         static void Main(string[] args)
         {

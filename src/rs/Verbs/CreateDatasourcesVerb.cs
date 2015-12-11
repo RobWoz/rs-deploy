@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
-using CYC.Logging.Interface;
+using NLog;
 using Rs.Commands;
 using Rs.ReportService2010;
 
@@ -12,11 +12,11 @@ namespace Rs.Verbs
     {
         private readonly CreateDatasourcesSubOptions options;
         private readonly IReportingServiceChannelFactory channelFactory;
-        private readonly ILogger logger;
+        private readonly Logger logger;
 
         private string[] blackListedConnectionStrings = { "LocalSqlServer", "OraAspNetConString" };
 
-        public CreateDatasourcesVerb(CreateDatasourcesSubOptions options, ILogger logger)
+        public CreateDatasourcesVerb(CreateDatasourcesSubOptions options, Logger logger)
         {
             this.options = options;
             this.channelFactory = new ReportingServiceChannelFactory();
