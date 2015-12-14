@@ -34,7 +34,7 @@ For detailed usage instructions, please see the [wiki](https://github.com/CityOf
 
 ## Installing
 
-Please install the NuGet package:
+Please install the NuGet [package](https://www.nuget.org/packages/RSDeploy):
 
 ````
 PM> Install-Package RSDeploy -Pre
