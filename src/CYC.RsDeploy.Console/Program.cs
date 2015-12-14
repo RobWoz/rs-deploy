@@ -39,7 +39,7 @@ namespace CYC.RsDeploy.Console
             }
             catch (Exception ex)
             {
-                logger.Error("Unexpected error", ex);
+                logger.Error(ex);
                 Environment.Exit(CommandLine.Parser.DefaultExitCodeFail);
             }
             
