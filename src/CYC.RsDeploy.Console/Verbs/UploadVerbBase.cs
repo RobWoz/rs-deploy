@@ -11,10 +11,10 @@ namespace CYC.RsDeploy.Console.Verbs
     {
         protected IFileService fileService;
         protected IReportingServiceChannelFactory channelFactory;
-        protected Logger logger;
+        protected ILogger logger;
         protected IReportingService2010 channel;
 
-        protected UploadVerbBase(Logger logger, string server)
+        protected UploadVerbBase(ILogger logger, string server)
         {
             this.fileService = new FileService();
             this.channelFactory = new ReportingServiceChannelFactory();

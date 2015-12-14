@@ -12,11 +12,11 @@ namespace CYC.RsDeploy.Console.Verbs
     {
         private readonly CreateDatasourcesSubOptions options;
         private readonly IReportingServiceChannelFactory channelFactory;
-        private readonly Logger logger;
+        private readonly ILogger logger;
 
         private string[] blackListedConnectionStrings = { "LocalSqlServer", "OraAspNetConString" };
 
-        public CreateDatasourcesVerb(CreateDatasourcesSubOptions options, Logger logger)
+        public CreateDatasourcesVerb(CreateDatasourcesSubOptions options, ILogger logger)
         {
             this.options = options;
             this.channelFactory = new ReportingServiceChannelFactory();

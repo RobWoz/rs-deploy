@@ -7,7 +7,7 @@ namespace CYC.RsDeploy.Console
 {
     class Program
     {
-        private static Logger logger = LogManager.GetLogger("rs");
+        private static ILogger logger = LogManager.GetLogger("rsdeploy");
 
         static void Main(string[] args)
         {

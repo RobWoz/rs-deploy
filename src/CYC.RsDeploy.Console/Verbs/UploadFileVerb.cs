@@ -9,7 +9,7 @@ namespace CYC.RsDeploy.Console.Verbs
     {
         private readonly UploadFileSubOptions options;
         
-        public UploadFileVerb(UploadFileSubOptions options, Logger logger) : base(logger, options.Server)
+        public UploadFileVerb(UploadFileSubOptions options, ILogger logger) : base(logger, options.Server)
         {
             this.options = options;
         }
