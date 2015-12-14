@@ -21,12 +21,12 @@ You'll need to pack your SSRS reports for deployment.  We use [Octopus Deploy](h
 At deployment time, [Octopus](https://octopus.com/) sets the connection strings in `datasources.config` to match the environment we are deploying to.  It then invokes the following commands to deploy our data sources and reports:
 
 ````
-rsdeploy.exe create-datasources -f DataSources.config -d {Target SSRS Folder} -s {Report Server}
+rsdeploy.exe create-datasources -f datasources.config -d {Target SSRS Folder} -s {Report Server}
 
 rsdeploy.exe upload-folder -f {Source Folder} -d {Target SSRS Folder} -s {Report Server}
 ```` 
 
-The `create-datasources` verb creates the data sources listed in the `DataSources.config` file in the specified destination folder on the report server.
+The `create-datasources` verb creates the data sources listed in the `datasources.config` file in the specified destination folder on the report server.
 
 The `upload-folder` verb uploads reports from the specified source folder to the destination folder on the report server.  It also ensures that any data sources in the uploaded reports are updated to use data sources created using the `create-datasources` verb.
 
