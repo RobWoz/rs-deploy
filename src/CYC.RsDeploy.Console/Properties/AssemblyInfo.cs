@@ -7,11 +7,11 @@ using CommandLine;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("rsdeploy.exe")]
-[assembly: AssemblyDescription("Reporting Services report upload tool.")]
+[assembly: AssemblyDescription("SQL Server Reporting Services report deployment tool.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("rsdeploy.exe")]
-[assembly: AssemblyCopyright("Copyright © CYC 2014")]
+[assembly: AssemblyCopyright("Copyright © City of York Council 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,9 +33,9 @@ using CommandLine;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.2.0")]
-[assembly: AssemblyFileVersion("1.0.2.0")]
-[assembly: AssemblyInformationalVersionAttribute("1.0.2")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyInformationalVersionAttribute("1.1.0-beta1")]
 
 [assembly: AssemblyUsage(
     @"Usage: rsdeploy upload-file -f 'C:\folder.sub-folder.report.rdl' -d '/test' -s server",
