@@ -1,3 +1,7 @@
+## RS Deploy
+
+[![Build status](https://ci.appveyor.com/api/projects/status/axkinbek2iqdwktg?svg=true)](https://ci.appveyor.com/project/CityOfYork/rs-deploy)
+
 `rsdeploy.exe` is a command line tool to deploy SQL Server Reporting Services assets.  It uses the [Report Server Web Service](https://msdn.microsoft.com/en-us/library/ms152787.aspx) to upload data sources and reports.  When used with a deployment tool such as [Octopus Deploy](https://octopus.com/) you can deploy data sources with the correct connection strings for the environment you are deploying to, deploy reports, and ensure your reports use those data sources.  
 
 ## Why?
@@ -41,7 +45,3 @@ PM> Install-Package RSDeploy -Pre
 ## Contributing
 
 We welcome contributions from the community.  Please open a pull request or issue early to let us know you are working on a feature.  If you would like to add a new feature, please open an issue so we can discuss it before submitting a pull request.  All contributions must be accompanied by unit tests.
-
-## Continuous Integration
-
-[![Build status](https://ci.appveyor.com/api/projects/status/axkinbek2iqdwktg?svg=true)](https://ci.appveyor.com/project/CityOfYork/rs-deploy)
