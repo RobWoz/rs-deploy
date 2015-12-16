@@ -1,5 +1,3 @@
-# rs-deploy
-
 `rsdeploy.exe` is a command line tool to deploy SQL Server Reporting Services assets.  It uses the [Report Server Web Service](https://msdn.microsoft.com/en-us/library/ms152787.aspx) to upload data sources and reports.  When used with a deployment tool such as [Octopus Deploy](https://octopus.com/) you can deploy data sources with the correct connection strings for the environment you are deploying to, deploy reports, and ensure your reports use those data sources.  
 
 ## Why?
