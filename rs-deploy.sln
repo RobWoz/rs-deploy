@@ -1,14 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{5B47EEA2-0D67-45CD-A346-8460FFA90F12}"
-	ProjectSection(SolutionItems) = preProject
-		src\CYC.RsDeploy.Console\CYC.RsDeploy.Console.nuspec = src\CYC.RsDeploy.Console\CYC.RsDeploy.Console.nuspec
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CYC.RsDeploy.Console", "src\CYC.RsDeploy.Console\CYC.RsDeploy.Console.csproj", "{403A972D-66B7-4CBF-B6E9-AEA2989808DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D07DFDAF-4EBD-4C42-8D36-017009D9F049}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+		.nuget\RSDeploy.nuspec = .nuget\RSDeploy.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,6 +14,7 @@
     <projectUrl>https://github.com/CityOfYork/rs-deploy</projectUrl>
   </metadata>
   <files>
-    <file src="bin\Release\*.*" target="tools" />
+    <file src="rsdeploy.exe" target="tools" />
+    <file src="rsdeploy.exe.config" target="tools" /> 
   </files>
 </package>
