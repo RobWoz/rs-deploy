@@ -11,7 +11,7 @@ using CommandLine;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("rsdeploy.exe")]
-[assembly: AssemblyCopyright("Copyright © City of York Council 2015")]
+[assembly: AssemblyCopyright("Copyright © City of York Council 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,7 +35,7 @@ using CommandLine;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.1.0.0")]
 [assembly: AssemblyFileVersion("1.1.0.0")]
-[assembly: AssemblyInformationalVersionAttribute("1.1.0-beta1")]
+[assembly: AssemblyInformationalVersionAttribute("1.1.0-beta2")]
 
 [assembly: AssemblyUsage(
     @"Usage: rsdeploy upload-file -f 'C:\folder.sub-folder.report.rdl' -d '/test' -s server",
